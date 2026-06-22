@@ -1,0 +1,247 @@
+{
+  "main": {
+    "id": "f6f07d36575f105b",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a530a60927891f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37786f2ae0aceadd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bienvenido.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bienvenido"
+            }
+          },
+          {
+            "id": "441239a5819400ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Usuarios.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Usuarios"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "31381ae03a8d3628",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f7856262b5555b4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cc3146142f717f45",
+    "type": "split",
+    "children": [
+      {
+        "id": "769b331e63d30e31",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b2bdf0f83933c19",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "4aa7b0d0359070e6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "895115f4740937af",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "24cbd26b11b3a0db",
+    "type": "split",
+    "children": [
+      {
+        "id": "bfd223dfba28009a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ceba53fde62a485",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "944d5d01f3344f78",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "add82e48ba048da8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fc08d5f105a9c465",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "13845930395eef55",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          },
+          {
+            "id": "48e83211cb421636",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "441239a5819400ba",
+  "lastOpenFiles": [
+    "Bienvenido.md",
+    "Usuarios.md",
+    "design/fonts/TT Octosquares Trial Expanded Italic.ttf",
+    "design/fonts/TT Octosquares Trial Expanded ExtraLight.ttf",
+    "design/fonts/TT Octosquares Trial Expanded ExtraLight Italic.ttf",
+    "design/fonts/TT Octosquares Trial Expanded ExtraBold.ttf",
+    "design/fonts/TT Octosquares Trial Expanded ExtraBold Italic.ttf",
+    "design/fonts/TT Octosquares Trial Expanded DemiBold.ttf",
+    "design/fonts/TT Octosquares Trial Expanded DemiBold Italic.ttf",
+    "design/fonts/TT Octosquares Trial Expanded Bold.ttf",
+    "design/fonts/TT Octosquares Trial Expanded Bold Italic.ttf",
+    "design/fonts/TT Octosquares Trial Expanded Black.ttf",
+    "design/fonts/square_sans_serif_7_screen.png",
+    "design/fonts/prev.png",
+    "Untitled.md",
+    "Welcome.md"
+  ]
+}
