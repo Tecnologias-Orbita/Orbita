@@ -37,22 +37,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "31381ae03a8d3628",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5f7856262b5555b4",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -225,7 +209,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "441239a5819400ba",
+  "active": "9b2bdf0f83933c19",
   "lastOpenFiles": [
     "Bienvenido.md",
     "Usuarios.md",
