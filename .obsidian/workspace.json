@@ -25,13 +25,12 @@
             "id": "441239a5819400ba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Usuarios.md",
-                "mode": "source",
-                "source": false
+                "file": "Usuarios/Usuarios.base",
+                "viewName": "Tabla"
               },
-              "icon": "lucide-file",
+              "icon": "lucide-table",
               "title": "Usuarios"
             }
           }
@@ -209,20 +208,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9b2bdf0f83933c19",
+  "active": "441239a5819400ba",
   "lastOpenFiles": [
-    "Bienvenido.md",
+    "Salario.md",
+    "Usuarios/Usuarios.base",
+    "Usuarios",
     "Usuarios.md",
+    "Bienvenido.md",
+    "Roles.base",
+    "Sin título 2.md",
+    "Sin título 1.md",
+    "Usuarios.base",
     "design/fonts/TT Octosquares Trial Expanded Italic.ttf",
     "design/fonts/TT Octosquares Trial Expanded ExtraLight.ttf",
     "design/fonts/TT Octosquares Trial Expanded ExtraLight Italic.ttf",
     "design/fonts/TT Octosquares Trial Expanded ExtraBold.ttf",
     "design/fonts/TT Octosquares Trial Expanded ExtraBold Italic.ttf",
     "design/fonts/TT Octosquares Trial Expanded DemiBold.ttf",
-    "design/fonts/TT Octosquares Trial Expanded DemiBold Italic.ttf",
-    "design/fonts/TT Octosquares Trial Expanded Bold.ttf",
-    "design/fonts/TT Octosquares Trial Expanded Bold Italic.ttf",
-    "design/fonts/TT Octosquares Trial Expanded Black.ttf",
     "design/fonts/square_sans_serif_7_screen.png",
     "design/fonts/prev.png",
     "Untitled.md",
