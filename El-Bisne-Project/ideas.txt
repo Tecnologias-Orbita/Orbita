@@ -1,0 +1,35 @@
+Negocios objetivo:
+Negocios online, o que necesiten mostrar su catalogo en linea.
+
+Ejemplos:
+-Barberias
+-Restaurantes
+-Bar
+-Comida Rapida
+
+
+
+Modulos iniciales:
+Modulo landing: Consta de una pagina con hero, y secciones personalizables, donde un emprendedor
+    o freelancer puede mostrarse. Debe constar de facilidades para establecer contacto, y de un formulario personalizables
+    donde el cliente pueda solicitar el servicio que desea
+
+    Para este moulo, necesitamos que el emprendedor tenga una amplia gama de personalizacion, donde pueda definir,
+    un icono para su sitio, un hero section acorde a sus necesidades, y annadir secciones de texto, en diferentes
+    fuentes y tamannos, definir paleta de colores del disenno base. Y un sitio de administrador amigable, donde el 
+    emprendedor puede ver como va quedando su landing page a medida que va annadiendole contenido.
+
+Modulo catalogo: Modulo estrella del sistema, donde un administrador, puede elegir, para su tipo de negocio una
+    plantilla que se ajuste a su negocio. Aqui el emprendedor no solo va a annadir secciones, sino que va a
+    contar con una pagina de menu o catalogo, en la cual el emprendedor oferta sus productos y servicios,
+    el cliente puede consultarlos, y en dependencia de su rama, puede solicitar un carrito o un formulario.
+    Que se almacenara como un pedido y se enviara una notificacion a su email/telefonocon la informacion pertinente
+
+    Para este modulo, es necesario que el emprendedor cuente con un sitio de administrador, donde defina, categorias,
+    productos(productos relacionados, precio, oferta, disponibilidad), gestionar sus administradores de cuenta
+
+
+
+Para todos los modulos es necesario tener estadisticas de visitas, y la plataforma debe mostrar estadisticas
+generales de cantidad de pedidos cerrados en la web, cantidad de negocios, etc etc.
+    
