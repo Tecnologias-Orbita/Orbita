@@ -25,13 +25,14 @@
             "id": "441239a5819400ba",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Usuarios/Usuarios.base",
-                "viewName": "Tabla"
+                "file": "Caracterización empresa.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Usuarios"
+              "icon": "lucide-file",
+              "title": "Caracterización empresa"
             }
           }
         ],
@@ -211,10 +212,11 @@
   "active": "441239a5819400ba",
   "lastOpenFiles": [
     "Salario.md",
-    "Usuarios/Usuarios.base",
-    "Usuarios",
+    "Caracterización empresa.md",
     "Usuarios.md",
     "Bienvenido.md",
+    "Usuarios/Usuarios.base",
+    "Usuarios",
     "Roles.base",
     "Sin título 2.md",
     "Sin título 1.md",
