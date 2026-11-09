@@ -1,0 +1,38 @@
+:root {
+  /* Column 1 */
+  --palette-1-1: #dfd2d0;
+  --palette-1-2: #bfa4a1;
+  --palette-1-3: #a07771;
+  --palette-1-4: #804942;
+  --palette-1-5: #601c13;
+  /* Column 2 */
+  --palette-2-1: #ece3f7;
+  --palette-2-2: #d4bcf0;
+  --palette-2-3: #c7aae8;
+  --palette-2-4: #b58de1;
+  --palette-2-5: #a271d9;
+  /* Column 3 */
+  --palette-3-1: #ecfaf4;
+  --palette-3-2: #d9f5e8;
+  --palette-3-3: #c7f0dd;
+  --palette-3-4: #b4ebd1;
+  --palette-3-5: #a1e6c6;
+  /* Column 4 */
+  --palette-4-1: #f3ecfa;
+  --palette-4-2: #e6d9f5;
+  --palette-4-3: #dac7f0;
+  --palette-4-4: #cdb4eb;
+  --palette-4-5: #c1a1e6;
+  /* Column 5 */
+  --palette-5-1: #faf7ee;
+  --palette-5-2: #f5f0dc;
+  --palette-5-3: #f0e8cb;
+  --palette-5-4: #ebe1b9;
+  --palette-5-5: #e6d9a8;
+  /* Column 6 */
+  --palette-6-1: #cce3d8;
+  --palette-6-2: #99c7b2;
+  --palette-6-3: #66ab8b;
+  --palette-6-4: #338f65;
+  --palette-6-5: #00733e;
+}
