@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1af48bc2369ec0a7",
+        "id": "601a8249e86a3600",
         "type": "tabs",
         "children": [
           {
-            "id": "a8d03e5c855ea6fd",
+            "id": "7828baa7b85b46f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Orbita Negocios/Orbita Negocios.md",
+                "file": "Administracion/Recursos Humanos/Usuarios.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Orbita Negocios"
+              "title": "Usuarios"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Orbita Negocios/Orbita Negocios.md",
+                "file": "Administracion/Recursos Humanos/Usuarios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Orbita Negocios"
+              "title": "Enlaces entrantes de Usuarios"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Orbita Negocios/Orbita Negocios.md",
+                "file": "Orbita Negocios/Tasks/Tasks DB.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Orbita Negocios"
+              "title": "Enlaces salientes de Tasks DB"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Orbita Negocios/Orbita Negocios.md",
+                "file": "Orbita Negocios/Tasks/Tasks DB.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Orbita Negocios"
+              "title": "Esquema de Tasks DB"
             }
           },
           {
@@ -173,6 +173,16 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
+            }
+          },
+          {
+            "id": "12279197b4f78acb",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-agent-chat-view",
+              "state": {},
+              "icon": "copilot-agent",
+              "title": "Copilot Agent Chat"
             }
           }
         ],
@@ -191,31 +201,50 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Nuevo Bosquejo": false,
+      "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "48e83211cb421636",
+  "active": "9b2bdf0f83933c19",
   "lastOpenFiles": [
-    "Orbita Negocios/Orbita Negocios.md",
-    "Caracterización empresa.md",
-    "Bienvenido.md",
+    "Marketing",
     "Usuarios/Usuarios.base",
-    "Usuarios.md",
+    "Administracion/Recursos Humanos/Usuarios.md",
     "Salario.md",
-    "Orbita Negocios",
-    "Sin título.base",
-    "Orbita Negocios/El-Bisne-Project/ideas.txt",
-    "Orbita Negocios/El-Bisne-Project",
-    "Usuarios",
-    "Roles.base",
-    "Sin título 2.md",
-    "Sin título 1.md",
-    "Usuarios.base",
-    "design/fonts/TT Octosquares Trial Expanded Italic.ttf",
-    "design/fonts/TT Octosquares Trial Expanded ExtraLight.ttf",
+    "Administracion/Recursos Humanos",
+    "Administracion/Caracterización empresa.md",
+    "Bienvenido.md",
+    "Administracion",
+    "Productos/Orbita Negocios/Orbita Negocios.md",
+    "Productos",
+    "Productos/Orbita Negocios/Tasks/Tasks DB.base",
+    "Productos/Orbita Negocios/Tasks/Task 1.md",
+    "Productos/Orbita Negocios/Tasks/Task 2.md",
+    "templates/Task - {{title}}.md",
+    "Common/Priorities/High.md",
+    "Common/Priorities/Low.md",
+    "Common/Priorities/Medium.md",
+    "Common/Priorities",
+    "Common/Sin título.md",
+    "Common",
+    "Productos/Orbita Negocios/Backend/Services/Authentication.md",
+    "Productos/Orbita Negocios/Backend/Services/Businesses.md",
+    "Productos/Orbita Negocios/Backend",
+    "Productos/Orbita Negocios/Backend/Services",
+    "templates",
+    "copilot/skills/json-canvas/SKILL.md",
+    "copilot/skills/json-canvas/references/EXAMPLES.md",
+    "copilot/skills/obsidian-bases/SKILL.md",
+    "copilot/skills/obsidian-bases/references/EXAMPLES.md",
+    "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
+    "copilot/skills/obsidian-markdown/SKILL.md",
+    "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
+    "copilot/skills/obsidian-markdown/references/EMBEDS.md",
+    "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
+    "copilot/skills/copilot-fetch-x/SKILL.md",
+    "copilot/skills/copilot-youtube-transcript/SKILL.md",
     "design/fonts/square_sans_serif_7_screen.png",
-    "design/fonts/prev.png",
-    "Untitled.md",
-    "Welcome.md"
+    "design/fonts/prev.png"
   ]
 }

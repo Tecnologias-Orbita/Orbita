@@ -1,0 +1,4872 @@
+{
+  "userId": "cb5f5284-8d72-4fda-8397-68657ad3f8af",
+  "isPaidUser": false,
+  "isPlusUser": false,
+  "entitlementToken": "",
+  "entitlementExpiresAt": 0,
+  "plusLicenseKey": "",
+  "openAIApiKey": "",
+  "openAIOrgId": "",
+  "huggingfaceApiKey": "",
+  "cohereApiKey": "",
+  "anthropicApiKey": "",
+  "googleApiKey": "",
+  "openRouterAiApiKey": "",
+  "xaiApiKey": "",
+  "mistralApiKey": "",
+  "deepseekApiKey": "",
+  "siliconflowApiKey": "",
+  "defaultChainType": "llm_chain",
+  "defaultModelKey": "",
+  "contextTurns": 15,
+  "userSystemPrompt": "",
+  "openAIProxyBaseUrl": "",
+  "stream": true,
+  "copilotFolder": "copilot",
+  "copilotRootHistory": [
+    "copilot"
+  ],
+  "upgradedToV8FromLegacy": false,
+  "defaultSaveFolder": "copilot/copilot-conversations",
+  "defaultConversationTag": "copilot-conversation",
+  "autosaveChat": true,
+  "autoAttachActiveNote": true,
+  "defaultOpenArea": "view",
+  "defaultSendShortcut": "enter",
+  "customPromptsFolder": "copilot/copilot-custom-prompts",
+  "qaExclusions": "copilot",
+  "qaInclusions": "",
+  "chatNoteContextPath": "",
+  "chatNoteContextTags": [],
+  "debug": false,
+  "maxSourceChunks": 30,
+  "enableInlineCitations": true,
+  "groqApiKey": "",
+  "activeModels": [],
+  "lexicalSearchRamLimit": 100,
+  "promptUsageTimestamps": {},
+  "promptSortStrategy": "timestamp",
+  "chatHistorySortStrategy": "recent",
+  "projectsFolder": "copilot/projects",
+  "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
+  "inlineEditCommands": [],
+  "projectList": [],
+  "lastDismissedVersion": null,
+  "lastShownStartupVersion": "4.0.20",
+  "passMarkdownImages": true,
+  "enableAutonomousAgent": true,
+  "enableCustomPromptTemplating": true,
+  "enableSelfHostMode": false,
+  "enableMiyo": false,
+  "enableMiyoSearchSkill": true,
+  "miyoSearchAll": false,
+  "miyoExtraSearchFolders": [],
+  "miyoSearchMaxResults": 20,
+  "miyoSearchMaxVariants": 2,
+  "relevantNotesLiveUpdate": true,
+  "miyoServerUrl": "",
+  "selfHostSearchProvider": "firecrawl",
+  "firecrawlApiKey": "",
+  "perplexityApiKey": "",
+  "parallelApiKey": "",
+  "exaApiKey": "",
+  "supadataApiKey": "",
+  "enableMiyoDocumentProcessing": true,
+  "enableLexicalBoosts": true,
+  "suggestedDefaultCommands": false,
+  "autonomousAgentEnabledToolIds": [
+    "localSearch",
+    "readNote",
+    "webSearch",
+    "pomodoro",
+    "youtubeTranscription",
+    "writeFile",
+    "editFile",
+    "updateMemory"
+  ],
+  "reasoningEffort": "low",
+  "verbosity": "medium",
+  "memoryFolderName": "copilot/memory",
+  "enableRecentConversations": true,
+  "maxRecentConversations": 30,
+  "enableSavedMemory": true,
+  "quickCommandIncludeNoteContext": true,
+  "autoAcceptEdits": false,
+  "diffViewMode": "split",
+  "userSystemPromptsFolder": "copilot/system-prompts",
+  "defaultSystemPromptTitle": "",
+  "autoCompactThreshold": 128000,
+  "convertedDocOutputFolder": "",
+  "agentMode": {
+    "byok": {},
+    "activeBackend": "opencode",
+    "backends": {},
+    "debugFullFrames": true,
+    "offerFeedbackCards": true,
+    "notificationSound": true,
+    "notificationSoundId": "piano",
+    "skills": {
+      "folder": "copilot/skills",
+      "builtinPreferences": {
+        "copilot-web-search": {
+          "disabled": true
+        },
+        "copilot-web-fetch": {
+          "disabled": true
+        },
+        "obsidian-bases": {
+          "disabledAgents": [
+            "claude"
+          ]
+        },
+        "json-canvas": {
+          "disabledAgents": [
+            "claude",
+            "codex"
+          ]
+        }
+      }
+    },
+    "deviceProfiles": {
+      "540e9a99-2d02-4649-8823-eb2d3b7dfe9e": {
+        "opencode": {
+          "binaryPath": "C:\\Users\\user1\\.obsidian-copilot\\opencode\\2.0.32\\bin\\opencode.exe",
+          "binaryVersion": "2.0.32",
+          "binarySource": "managed",
+          "probeSessionId": "ses_e39b68563ffefqkfSdItG5Lqjb"
+        }
+      }
+    }
+  },
+  "providers": {
+    "777922eb-2e7a-4172-b070-f5c93688e939": {
+      "providerType": "openai-compatible",
+      "displayName": "OpenCode",
+      "origin": {
+        "kind": "agent",
+        "agentType": "opencode"
+      },
+      "requiresApiKey": false,
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "addedAt": 1794328067117,
+      "apiKeyKeychainId": null
+    }
+  },
+  "configuredModels": [
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/claude-fable-5",
+        "displayName": "github-copilot/Claude Fable 5"
+      },
+      "configuredModelId": "e4c28211-b230-43f7-ad60-c0b31dbdf569",
+      "configuredAt": 1794328071792
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/aion-labs/aion-3.5",
+        "displayName": "kilo/AionLabs: Aion 3.5"
+      },
+      "configuredModelId": "ff8424e1-605d-49f0-92e8-a7e56c7fc1fe",
+      "configuredAt": 1794328071805
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/aion-labs/aion-3.5-mini",
+        "displayName": "kilo/AionLabs: Aion 3.5 Mini"
+      },
+      "configuredModelId": "9b713363-1f62-4850-939d-53407028a6e8",
+      "configuredAt": 1794328071805
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/aion-labs/aion-2.0",
+        "displayName": "kilo/AionLabs: Aion-2.0"
+      },
+      "configuredModelId": "2c3a15bf-7527-4b38-bbd3-2ec65240941a",
+      "configuredAt": 1794328071805
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/aion-labs/aion-3.0",
+        "displayName": "kilo/AionLabs: Aion-3.0"
+      },
+      "configuredModelId": "24bf29be-fe44-4ba8-851f-4ade149b6416",
+      "configuredAt": 1794328071805
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/aion-labs/aion-3.0-mini",
+        "displayName": "kilo/AionLabs: Aion-3.0-Mini"
+      },
+      "configuredModelId": "55a2727a-f1dd-4a18-9143-1c2c18f89b2c",
+      "configuredAt": 1794328071805
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/aion-labs/aion-rp-llama-3.1-8b",
+        "displayName": "kilo/AionLabs: Aion-RP 1.0 (8B)"
+      },
+      "configuredModelId": "6be7e878-188c-4cac-886c-768e27bb7b34",
+      "configuredAt": 1794328071805
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/amazon/nova-2-lite-v1",
+        "displayName": "kilo/Amazon: Nova 2 Lite"
+      },
+      "configuredModelId": "36ded903-27fc-409e-8e74-bf6276a45134",
+      "configuredAt": 1794328071805
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/amazon/nova-lite-v1",
+        "displayName": "kilo/Amazon: Nova Lite 1.0"
+      },
+      "configuredModelId": "ac995658-b2d1-4fd8-bec8-14bb6e86a099",
+      "configuredAt": 1794328071805
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/amazon/nova-micro-v1",
+        "displayName": "kilo/Amazon: Nova Micro 1.0"
+      },
+      "configuredModelId": "522bc367-9003-4d71-8b74-2f4437f4b6ae",
+      "configuredAt": 1794328071806
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/amazon/nova-pro-v1",
+        "displayName": "kilo/Amazon: Nova Pro 1.0"
+      },
+      "configuredModelId": "30ca82e0-b81b-4f9e-98fa-415f38c12bbd",
+      "configuredAt": 1794328071806
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/~anthropic/claude-fable-latest",
+        "displayName": "kilo/Anthropic: Claude Fable Latest"
+      },
+      "configuredModelId": "b8f3bd9d-9829-4c6e-b97e-dfadad1d54f5",
+      "configuredAt": 1794328071806
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/~anthropic/claude-haiku-latest",
+        "displayName": "kilo/Anthropic: Claude Haiku Latest"
+      },
+      "configuredModelId": "5a1977ca-9fc3-4f96-964a-05190ec26fd2",
+      "configuredAt": 1794328071806
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/~anthropic/claude-opus-latest",
+        "displayName": "kilo/Anthropic: Claude Opus Latest"
+      },
+      "configuredModelId": "b9f2cc20-862f-4296-b5e0-329ba3dbe883",
+      "configuredAt": 1794328071806
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/~anthropic/claude-sonnet-latest",
+        "displayName": "kilo/Anthropic: Claude Sonnet Latest"
+      },
+      "configuredModelId": "9f07d7ab-976e-45f6-8dc9-139e27b80339",
+      "configuredAt": 1794328071807
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/kilo-auto/balanced",
+        "displayName": "kilo/Auto Balanced"
+      },
+      "configuredModelId": "545fa504-12da-4dad-990c-5a2c812219d1",
+      "configuredAt": 1794328071807
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/kilo-auto/efficient",
+        "displayName": "kilo/Auto Efficient"
+      },
+      "configuredModelId": "705aa7df-ae9f-4011-9af6-d1cdacfb5d5c",
+      "configuredAt": 1794328071807
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/kilo-auto/free",
+        "displayName": "kilo/Auto Free"
+      },
+      "configuredModelId": "6751fa10-11c3-4c4a-b98c-d15e9070db53",
+      "configuredAt": 1794328071807
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/kilo-auto/frontier",
+        "displayName": "kilo/Auto Frontier"
+      },
+      "configuredModelId": "d0119f68-375c-430e-8da9-345c0d7acfa7",
+      "configuredAt": 1794328071807
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openrouter/auto",
+        "displayName": "kilo/Auto Router"
+      },
+      "configuredModelId": "50972c69-f8cc-47dd-9035-453ddba565b3",
+      "configuredAt": 1794328071807
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/kilo-auto/small",
+        "displayName": "kilo/Auto Small"
+      },
+      "configuredModelId": "a1ddb140-32f9-4498-9fa0-a8ed43800274",
+      "configuredAt": 1794328071808
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openrouter/bodybuilder",
+        "displayName": "kilo/Body Builder (beta)"
+      },
+      "configuredModelId": "c3e2ffcc-631d-47ba-90aa-c8aefd4ce1c7",
+      "configuredAt": 1794328071808
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/bytedance-seed/seed-2-1-turbo",
+        "displayName": "kilo/ByteDance Seed: Seed 2.1 Turbo"
+      },
+      "configuredModelId": "38b4966f-ba32-4782-aa6f-efcef4d8e427",
+      "configuredAt": 1794328071809
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/bytedance/ui-tars-1.5-7b",
+        "displayName": "kilo/ByteDance: UI-TARS 7B "
+      },
+      "configuredModelId": "7b0ab54f-ad03-497e-a1bc-9b71a1a00d0d",
+      "configuredAt": 1794328071809
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/anthropic/claude-fable-5",
+        "displayName": "kilo/Claude Fable 5"
+      },
+      "configuredModelId": "65f31ad9-9b13-4170-b56b-dd709007978c",
+      "configuredAt": 1794328071809
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/anthropic/claude-fable-5.1",
+        "displayName": "kilo/Claude Fable 5.1"
+      },
+      "configuredModelId": "2027e6c7-976e-498b-a1c5-6f70e44c4b8e",
+      "configuredAt": 1794328071810
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/anthropic/claude-haiku-4.5",
+        "displayName": "kilo/Claude Haiku 4.5 (latest)"
+      },
+      "configuredModelId": "c8bcea9f-f226-41ef-833d-cf7a344015d1",
+      "configuredAt": 1794328071810
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/anthropic/claude-haiku-5.5",
+        "displayName": "kilo/Claude Haiku 5.5"
+      },
+      "configuredModelId": "384286fa-e42e-4802-bc22-0b84a0a9fa44",
+      "configuredAt": 1794328071810
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/anthropic/claude-opus-4.1",
+        "displayName": "kilo/Claude Opus 4.1 (latest)"
+      },
+      "configuredModelId": "dce38c0d-e12d-4e5a-b289-b54877884159",
+      "configuredAt": 1794328071810
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/anthropic/claude-opus-4.5",
+        "displayName": "kilo/Claude Opus 4.5 (latest)"
+      },
+      "configuredModelId": "51185c84-2b5c-407d-bda5-72731005a15c",
+      "configuredAt": 1794328071811
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/anthropic/claude-opus-4.6",
+        "displayName": "kilo/Claude Opus 4.6"
+      },
+      "configuredModelId": "4b98bb2f-e1d3-412d-ae35-ceb90283ce4f",
+      "configuredAt": 1794328071811
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/anthropic/claude-opus-4.7",
+        "displayName": "kilo/Claude Opus 4.7"
+      },
+      "configuredModelId": "96a8964b-68b3-4e90-a5fd-83531774a71b",
+      "configuredAt": 1794328071811
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/anthropic/claude-opus-4.8",
+        "displayName": "kilo/Claude Opus 4.8"
+      },
+      "configuredModelId": "e42590ec-829a-401b-9f08-a53289a222c4",
+      "configuredAt": 1794328071811
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/anthropic/claude-opus-5",
+        "displayName": "kilo/Claude Opus 5"
+      },
+      "configuredModelId": "17028cbf-ba70-42e9-9e6e-cd154e499043",
+      "configuredAt": 1794328071811
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/anthropic/claude-opus-5.5",
+        "displayName": "kilo/Claude Opus 5.5"
+      },
+      "configuredModelId": "46160b24-f235-468b-b750-0dace61eca7f",
+      "configuredAt": 1794328071812
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/anthropic/claude-sonnet-4.5",
+        "displayName": "kilo/Claude Sonnet 4.5 (latest)"
+      },
+      "configuredModelId": "0bee9af5-895c-43bc-9595-0fcf30ab6485",
+      "configuredAt": 1794328071812
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/anthropic/claude-sonnet-4.6",
+        "displayName": "kilo/Claude Sonnet 4.6"
+      },
+      "configuredModelId": "5b482f5d-c0a1-4c70-b39c-56b71c926fa0",
+      "configuredAt": 1794328071812
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/anthropic/claude-sonnet-5",
+        "displayName": "kilo/Claude Sonnet 5"
+      },
+      "configuredModelId": "24b5ecac-8948-43b6-910e-c598076f6737",
+      "configuredAt": 1794328071812
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/anthropic/claude-sonnet-5.5",
+        "displayName": "kilo/Claude Sonnet 5.5"
+      },
+      "configuredModelId": "29da6c6a-65b9-4509-b7d5-26568d787018",
+      "configuredAt": 1794328071812
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/codestral-2508",
+        "displayName": "kilo/Codestral 25.08"
+      },
+      "configuredModelId": "19246d2e-1eab-4a14-ab23-3c94e46866cc",
+      "configuredAt": 1794328071813
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/cohere/command-a-plus",
+        "displayName": "kilo/Cohere: Command A+"
+      },
+      "configuredModelId": "6ce7125d-7b2c-40ce-a0c8-e661a0f63f58",
+      "configuredAt": 1794328071813
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/cohere/command-a",
+        "displayName": "kilo/Command A"
+      },
+      "configuredModelId": "4d0a85a2-be69-4a31-9449-a6c1aa0e22e4",
+      "configuredAt": 1794328071814
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/cohere/command-r-08-2024",
+        "displayName": "kilo/Command R"
+      },
+      "configuredModelId": "a786edd8-0955-4818-9f78-2af9b0aae46c",
+      "configuredAt": 1794328071814
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/cohere/command-r-plus-08-2024",
+        "displayName": "kilo/Command R+"
+      },
+      "configuredModelId": "75bda3ae-0aa6-496b-a9fa-c32e4a578461",
+      "configuredAt": 1794328071814
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/cohere/command-r7b-12-2024",
+        "displayName": "kilo/Command R7B"
+      },
+      "configuredModelId": "e7665a9e-64e8-4883-a9ab-a9746e5aad6b",
+      "configuredAt": 1794328071814
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/deepseek/deepseek-chat",
+        "displayName": "kilo/DeepSeek Chat"
+      },
+      "configuredModelId": "1f6e45e7-42f9-494c-aaf2-37747288b864",
+      "configuredAt": 1794328071815
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/deepseek/deepseek-r1-0528",
+        "displayName": "kilo/DeepSeek R1 0528"
+      },
+      "configuredModelId": "88ee447c-037d-4fc7-b258-90b1bc572d92",
+      "configuredAt": 1794328071815
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/deepseek/deepseek-chat-v3-0324",
+        "displayName": "kilo/DeepSeek V3 0324"
+      },
+      "configuredModelId": "587faf6b-dc6c-4d69-876b-36b3bdfa87ea",
+      "configuredAt": 1794328071815
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/deepseek/deepseek-chat-v3.1",
+        "displayName": "kilo/DeepSeek V3.1"
+      },
+      "configuredModelId": "0fea389d-13fa-424d-b2e3-3fd51a7cb8c9",
+      "configuredAt": 1794328071815
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/deepseek/deepseek-v3.2",
+        "displayName": "kilo/DeepSeek V3.2"
+      },
+      "configuredModelId": "08c55379-7050-4939-8a68-862229241bd8",
+      "configuredAt": 1794328071816
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/deepseek/deepseek-v4-flash",
+        "displayName": "kilo/DeepSeek V4 Flash"
+      },
+      "configuredModelId": "2c758480-ac5e-4c05-a08c-dd666775725d",
+      "configuredAt": 1794328071816
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/deepseek/deepseek-v4-flash-0731",
+        "displayName": "kilo/DeepSeek V4 Flash 0731"
+      },
+      "configuredModelId": "d1d37fda-5670-48dc-a226-adcaf49bd6a7",
+      "configuredAt": 1794328071816
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/deepseek/deepseek-v4-flash-vision-exp",
+        "displayName": "kilo/DeepSeek V4 Flash Vision Exp"
+      },
+      "configuredModelId": "154999b1-018c-482a-b743-10f8aa8fb568",
+      "configuredAt": 1794328071816
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/deepseek/deepseek-v4-pro",
+        "displayName": "kilo/DeepSeek V4 Pro"
+      },
+      "configuredModelId": "e95c39b0-a134-45c5-8432-f73ffd16857e",
+      "configuredAt": 1794328071817
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/deepseek/deepseek-v4-pro-0813",
+        "displayName": "kilo/DeepSeek V4 Pro 0813"
+      },
+      "configuredModelId": "b77949e2-9ec5-4342-a645-ee0facac0847",
+      "configuredAt": 1794328071817
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/deepseek/deepseek-v4.1-flash",
+        "displayName": "kilo/DeepSeek V4.1 Flash"
+      },
+      "configuredModelId": "7f764a77-e11d-42a2-84c8-3e28f32d1e9a",
+      "configuredAt": 1794328071817
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/~deepseek/deepseek-flash-latest",
+        "displayName": "kilo/DeepSeek: DeepSeek Flash Latest"
+      },
+      "configuredModelId": "db81de40-d8c0-4926-98e2-90bc5367f841",
+      "configuredAt": 1794328071818
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/~deepseek/deepseek-pro-latest",
+        "displayName": "kilo/DeepSeek: DeepSeek Pro Latest"
+      },
+      "configuredModelId": "499641f9-47cf-4f58-9c05-eb52f2e1d93a",
+      "configuredAt": 1794328071819
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/deepseek/deepseek-v3.1-terminus",
+        "displayName": "kilo/DeepSeek: DeepSeek V3.1 Terminus"
+      },
+      "configuredModelId": "8ec8d28e-562a-4be5-ad9d-907767da5ee2",
+      "configuredAt": 1794328071819
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/deepseek/deepseek-v3.2-exp",
+        "displayName": "kilo/DeepSeek: DeepSeek V3.2 Exp"
+      },
+      "configuredModelId": "87c2f9fe-8199-4cd9-8915-d79bbf6059b1",
+      "configuredAt": 1794328071820
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/~deepseek/deepseek-v4-flash-latest",
+        "displayName": "kilo/DeepSeek: DeepSeek V4 Flash Latest"
+      },
+      "configuredModelId": "84e2a7d5-7e97-4da2-9e42-02d0ee93cb32",
+      "configuredAt": 1794328071820
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/devstral-2512",
+        "displayName": "kilo/Devstral 2"
+      },
+      "configuredModelId": "70be9143-20e0-4ba5-bb39-31b1cb3cd8d6",
+      "configuredAt": 1794328071820
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/dots-studio/dots-3-note-preview:free",
+        "displayName": "kilo/Dots Studio: Dots3-Note Preview (free)"
+      },
+      "configuredModelId": "af7bf469-ebfc-4c93-91df-d4431ebf9bb3",
+      "configuredAt": 1794328071820
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/fireworks/ember-1",
+        "displayName": "kilo/Fireworks: Ember-1"
+      },
+      "configuredModelId": "7cd2bb09-4d11-44fd-be34-af0edfa801a3",
+      "configuredAt": 1794328071820
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/sakana/fugu-max",
+        "displayName": "kilo/Fugu Max"
+      },
+      "configuredModelId": "2a460bdd-16d0-43e4-962e-9ed4e77a943b",
+      "configuredAt": 1794328071820
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/sakana/fugu-ultra",
+        "displayName": "kilo/Fugu Ultra"
+      },
+      "configuredModelId": "dd36cc6a-edb1-4f81-a782-7b90ef4699d2",
+      "configuredAt": 1794328071820
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/sakana/fugu-ultra-v2",
+        "displayName": "kilo/Fugu Ultra v2"
+      },
+      "configuredModelId": "b792ea6c-c9ad-4123-b58f-7ed04f06fb47",
+      "configuredAt": 1794328071820
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-2.5-pro-preview",
+        "displayName": "kilo/Gemini 2.5 Pro Preview 06-05"
+      },
+      "configuredModelId": "0df56b58-a53a-47e1-85e0-13f354475d4d",
+      "configuredAt": 1794328071821
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-3-flash-preview",
+        "displayName": "kilo/Gemini 3 Flash Preview"
+      },
+      "configuredModelId": "e107e5a1-b6b8-4d4b-a491-07cd6939ff8f",
+      "configuredAt": 1794328071821
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-3.1-flash-lite",
+        "displayName": "kilo/Gemini 3.1 Flash Lite"
+      },
+      "configuredModelId": "8c35227f-1d63-4fde-a22d-8d0e5c9a5530",
+      "configuredAt": 1794328071821
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-3.1-flash-lite-preview",
+        "displayName": "kilo/Gemini 3.1 Flash Lite Preview"
+      },
+      "configuredModelId": "b260daf4-bd80-444a-aec9-6b7e44c5c2c2",
+      "configuredAt": 1794328071821
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-3.1-pro-preview",
+        "displayName": "kilo/Gemini 3.1 Pro Preview"
+      },
+      "configuredModelId": "ab1ecd78-bd18-4190-94e9-0ab559c002a0",
+      "configuredAt": 1794328071821
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-3.1-pro-preview-customtools",
+        "displayName": "kilo/Gemini 3.1 Pro Preview Custom Tools"
+      },
+      "configuredModelId": "3e8105c1-93e0-41c8-ab55-821984502f5a",
+      "configuredAt": 1794328071821
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-3.5-flash",
+        "displayName": "kilo/Gemini 3.5 Flash"
+      },
+      "configuredModelId": "0a696a01-9bc6-49f2-9bb8-88a23291b695",
+      "configuredAt": 1794328071822
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-3.5-flash-lite",
+        "displayName": "kilo/Gemini 3.5 Flash Lite"
+      },
+      "configuredModelId": "b14a1e61-035e-4b79-9184-67ca91c05922",
+      "configuredAt": 1794328071822
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-3.6-flash",
+        "displayName": "kilo/Gemini 3.6 Flash"
+      },
+      "configuredModelId": "678c5789-5879-4c87-aae9-3ca74942a3dc",
+      "configuredAt": 1794328071822
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-3.7-flash",
+        "displayName": "kilo/Gemini 3.7 Flash"
+      },
+      "configuredModelId": "7308ab1f-8af5-4e5e-b4f6-a491d3e86200",
+      "configuredAt": 1794328071822
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-3.8-flash",
+        "displayName": "kilo/Gemini 3.8 Flash"
+      },
+      "configuredModelId": "70cdff9a-fdf5-46c6-9299-e09a3962f5df",
+      "configuredAt": 1794328071822
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-4-argon",
+        "displayName": "kilo/Gemini 4 Argon"
+      },
+      "configuredModelId": "059d99e7-a98c-413b-bf87-1789cfa4bcf6",
+      "configuredAt": 1794328071822
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemma-2-27b-it",
+        "displayName": "kilo/Gemma 2 27B"
+      },
+      "configuredModelId": "6b0d3055-75d9-4b88-ac83-db384d43984d",
+      "configuredAt": 1794328071822
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemma-3-12b-it",
+        "displayName": "kilo/Gemma 3 12B IT"
+      },
+      "configuredModelId": "506a5d68-be90-4510-b7df-b6aec8bd590a",
+      "configuredAt": 1794328071822
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemma-3-27b-it",
+        "displayName": "kilo/Gemma 3 27B IT"
+      },
+      "configuredModelId": "fda5d30f-5852-4f73-9f3d-f3c43420eab4",
+      "configuredAt": 1794328071823
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemma-3-4b-it",
+        "displayName": "kilo/Gemma 3 4B IT"
+      },
+      "configuredModelId": "ffe5a028-fd35-4d6c-a376-7e1495ae71a5",
+      "configuredAt": 1794328071823
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemma-4-26b-a4b-it",
+        "displayName": "kilo/Gemma 4 26B A4B IT"
+      },
+      "configuredModelId": "b5d06520-e2b6-43ef-b5db-892ef3aa8872",
+      "configuredAt": 1794328071823
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemma-4-31b-it",
+        "displayName": "kilo/Gemma 4 31B IT"
+      },
+      "configuredModelId": "78f30215-98a0-4284-8a6f-c69b94cdc3d7",
+      "configuredAt": 1794328071823
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-4.5",
+        "displayName": "kilo/GLM-4.5"
+      },
+      "configuredModelId": "927c8992-33c3-4dac-83c3-36e02a6c257a",
+      "configuredAt": 1794328071823
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-4.5-air",
+        "displayName": "kilo/GLM-4.5-Air"
+      },
+      "configuredModelId": "7860e6f8-2bab-44af-8ea0-b488baf2dc84",
+      "configuredAt": 1794328071823
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-4.5v",
+        "displayName": "kilo/GLM-4.5V"
+      },
+      "configuredModelId": "23b282b2-4441-40d5-90a3-d1bc8f14187b",
+      "configuredAt": 1794328071824
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-4.6",
+        "displayName": "kilo/GLM-4.6"
+      },
+      "configuredModelId": "34b94960-0d8c-4efc-b1ca-dea1068d2082",
+      "configuredAt": 1794328071824
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-4.6v",
+        "displayName": "kilo/GLM-4.6V"
+      },
+      "configuredModelId": "7d156197-545a-4d7c-ad21-6392e7bee5bc",
+      "configuredAt": 1794328071824
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-4.7",
+        "displayName": "kilo/GLM-4.7"
+      },
+      "configuredModelId": "02abbed2-04da-40ff-a7f5-6840cdc5b21b",
+      "configuredAt": 1794328071827
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-4.7-flash",
+        "displayName": "kilo/GLM-4.7-Flash"
+      },
+      "configuredModelId": "6230b02a-07f6-4885-b00d-9e02e1b7ed1c",
+      "configuredAt": 1794328071827
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-5",
+        "displayName": "kilo/GLM-5"
+      },
+      "configuredModelId": "8a7ca6e7-77d2-409b-b1a3-1882311874a3",
+      "configuredAt": 1794328071827
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-5-turbo",
+        "displayName": "kilo/GLM-5-Turbo"
+      },
+      "configuredModelId": "6d6d6fa0-a946-412b-948d-58f47990caa2",
+      "configuredAt": 1794328071828
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-5.1",
+        "displayName": "kilo/GLM-5.1"
+      },
+      "configuredModelId": "a1283948-f335-4336-883f-e2cf36347462",
+      "configuredAt": 1794328071828
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-5.2",
+        "displayName": "kilo/GLM-5.2"
+      },
+      "configuredModelId": "2965239a-e23b-4a45-823a-63ee32afa84e",
+      "configuredAt": 1794328071828
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-5.3",
+        "displayName": "kilo/GLM-5.3"
+      },
+      "configuredModelId": "aedf1c8b-d240-47fb-825a-2d4e24e27af5",
+      "configuredAt": 1794328071828
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-5.3-flash",
+        "displayName": "kilo/GLM-5.3-Flash"
+      },
+      "configuredModelId": "ac67ffe1-1eb5-4c5f-b2b7-5191d27fca61",
+      "configuredAt": 1794328071829
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-5v-turbo",
+        "displayName": "kilo/GLM-5V-Turbo"
+      },
+      "configuredModelId": "710a3ba4-007a-47f9-a62c-4a0723a9047f",
+      "configuredAt": 1794328071829
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/~google/gemini-flash-latest",
+        "displayName": "kilo/Google: Gemini Flash Latest"
+      },
+      "configuredModelId": "50890c5b-6332-45c3-bb83-ec326b1173c4",
+      "configuredAt": 1794328071829
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/~google/gemini-pro-latest",
+        "displayName": "kilo/Google: Gemini Pro Latest"
+      },
+      "configuredModelId": "7dcbf5f9-471b-4d5f-b732-0fafa8804545",
+      "configuredAt": 1794328071830
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-oss-120b",
+        "displayName": "kilo/GPT OSS 120B"
+      },
+      "configuredModelId": "2d99a061-6a84-46ca-97d4-9f036593d2a9",
+      "configuredAt": 1794328071830
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-oss-20b",
+        "displayName": "kilo/GPT OSS 20B"
+      },
+      "configuredModelId": "22cac4c2-82c0-4c9e-ac74-16af5d82ad3d",
+      "configuredAt": 1794328071830
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-oss-safeguard-20b",
+        "displayName": "kilo/GPT OSS Safeguard 20B"
+      },
+      "configuredModelId": "2f655135-b9fc-4d6f-af65-72b66802ea7d",
+      "configuredAt": 1794328071830
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-4",
+        "displayName": "kilo/GPT-4"
+      },
+      "configuredModelId": "86381c6b-e870-43d4-b2b0-422103e8bed0",
+      "configuredAt": 1794328071830
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-4.1",
+        "displayName": "kilo/GPT-4.1"
+      },
+      "configuredModelId": "52a71396-4ded-4a44-828d-b3a1e7a68044",
+      "configuredAt": 1794328071831
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-4.1-mini",
+        "displayName": "kilo/GPT-4.1 mini"
+      },
+      "configuredModelId": "408ac0d3-0569-4440-bab6-77b3263f9af4",
+      "configuredAt": 1794328071831
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-4.1-nano",
+        "displayName": "kilo/GPT-4.1 nano"
+      },
+      "configuredModelId": "64cc1aa3-9f6b-4e83-9e1c-fd785c78dcf4",
+      "configuredAt": 1794328071831
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-4o",
+        "displayName": "kilo/GPT-4o"
+      },
+      "configuredModelId": "33b16023-14ed-4e2a-af41-58e8bc3a09d2",
+      "configuredAt": 1794328071832
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-4o-2024-05-13",
+        "displayName": "kilo/GPT-4o (2024-05-13)"
+      },
+      "configuredModelId": "a12c8299-c992-421b-b097-304a55922728",
+      "configuredAt": 1794328071832
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-4o-2024-08-06",
+        "displayName": "kilo/GPT-4o (2024-08-06)"
+      },
+      "configuredModelId": "86451b32-556a-4b8c-9846-2f816f857c84",
+      "configuredAt": 1794328071832
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-4o-2024-11-20",
+        "displayName": "kilo/GPT-4o (2024-11-20)"
+      },
+      "configuredModelId": "0aa9b707-c0f2-4889-9b32-b6864214bfa3",
+      "configuredAt": 1794328071832
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-4o-mini",
+        "displayName": "kilo/GPT-4o mini"
+      },
+      "configuredModelId": "fa0614d2-6619-40b9-b133-bc334c9f8a6a",
+      "configuredAt": 1794328071832
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5",
+        "displayName": "kilo/GPT-5"
+      },
+      "configuredModelId": "a193f141-0bf7-4e58-b16f-1e132de01700",
+      "configuredAt": 1794328071833
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5-image",
+        "displayName": "kilo/GPT-5 Image"
+      },
+      "configuredModelId": "71224db4-d141-4310-ae27-989b96dd50d3",
+      "configuredAt": 1794328071833
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5-image-mini",
+        "displayName": "kilo/GPT-5 Image Mini"
+      },
+      "configuredModelId": "f51e5717-ce7b-4920-b0a7-bbac9f695cfd",
+      "configuredAt": 1794328071833
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5-mini",
+        "displayName": "kilo/GPT-5 Mini"
+      },
+      "configuredModelId": "61f86fe6-aced-4c24-93bb-9d5c166500ac",
+      "configuredAt": 1794328071833
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5-nano",
+        "displayName": "kilo/GPT-5 Nano"
+      },
+      "configuredModelId": "da99b054-b7ba-445b-827f-c37f6ebc7626",
+      "configuredAt": 1794328071834
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5-pro",
+        "displayName": "kilo/GPT-5 Pro"
+      },
+      "configuredModelId": "1c8030eb-d375-411a-978b-95df7da05e2f",
+      "configuredAt": 1794328071834
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.1",
+        "displayName": "kilo/GPT-5.1"
+      },
+      "configuredModelId": "7cd443d4-7e58-4563-b31a-e20990ae1a4e",
+      "configuredAt": 1794328071834
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.1-codex",
+        "displayName": "kilo/GPT-5.1 Codex"
+      },
+      "configuredModelId": "f51d29ea-f7cf-4d2e-8633-cf918a75c68c",
+      "configuredAt": 1794328071834
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.1-codex-max",
+        "displayName": "kilo/GPT-5.1 Codex Max"
+      },
+      "configuredModelId": "a33d611c-8661-4a4a-8454-353b4aad32f3",
+      "configuredAt": 1794328071835
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.1-codex-mini",
+        "displayName": "kilo/GPT-5.1 Codex mini"
+      },
+      "configuredModelId": "6b305066-2d3a-4521-b937-a5bdd1fab156",
+      "configuredAt": 1794328071835
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.2",
+        "displayName": "kilo/GPT-5.2"
+      },
+      "configuredModelId": "f31e969b-07eb-4f26-b753-c40bedb55d67",
+      "configuredAt": 1794328071835
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.2-codex",
+        "displayName": "kilo/GPT-5.2 Codex"
+      },
+      "configuredModelId": "ad4e001d-835a-408b-ba74-64892e93c2c5",
+      "configuredAt": 1794328071835
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.2-pro",
+        "displayName": "kilo/GPT-5.2 Pro"
+      },
+      "configuredModelId": "2087684f-6457-4f9d-8be9-4ebce2ab4d16",
+      "configuredAt": 1794328071835
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.3-codex",
+        "displayName": "kilo/GPT-5.3 Codex"
+      },
+      "configuredModelId": "1108f608-3e88-46da-b0be-b8635d42cb71",
+      "configuredAt": 1794328071836
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.4",
+        "displayName": "kilo/GPT-5.4"
+      },
+      "configuredModelId": "5cd3f529-bd6f-4679-951a-35010126acd4",
+      "configuredAt": 1794328071836
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.4-image-2",
+        "displayName": "kilo/GPT-5.4 Image 2"
+      },
+      "configuredModelId": "d67a2515-dc1a-415b-9b16-b1dfde20202a",
+      "configuredAt": 1794328071836
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.4-mini",
+        "displayName": "kilo/GPT-5.4 mini"
+      },
+      "configuredModelId": "ac94e359-1c47-4b28-98ea-2637853c1af7",
+      "configuredAt": 1794328071836
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.4-nano",
+        "displayName": "kilo/GPT-5.4 nano"
+      },
+      "configuredModelId": "a7680ef5-366b-4668-abc6-41dc6d306c20",
+      "configuredAt": 1794328071837
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.4-pro",
+        "displayName": "kilo/GPT-5.4 Pro"
+      },
+      "configuredModelId": "5460a53e-1573-4834-b6ec-a9fcd6bd0756",
+      "configuredAt": 1794328071837
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.5",
+        "displayName": "kilo/GPT-5.5"
+      },
+      "configuredModelId": "382f92ef-8f1c-477e-8009-47f5ca8dd1c4",
+      "configuredAt": 1794328071837
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.5-pro",
+        "displayName": "kilo/GPT-5.5 Pro"
+      },
+      "configuredModelId": "41707bee-fc7f-4b12-bfdd-33905d9ccbe7",
+      "configuredAt": 1794328071837
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.6-luna-pro",
+        "displayName": "kilo/GPT-5.6 Luna"
+      },
+      "configuredModelId": "4fdcc1f2-6b6a-4046-8e30-549e7b99981e",
+      "configuredAt": 1794328071838
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.6-luna",
+        "displayName": "kilo/GPT-5.6 Luna"
+      },
+      "configuredModelId": "c4cf4500-7c03-4619-b1e9-578fe08eaec1",
+      "configuredAt": 1794328071838
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.6-sol-pro",
+        "displayName": "kilo/GPT-5.6 Sol"
+      },
+      "configuredModelId": "cb043c67-1632-4417-9d59-8c555b51229b",
+      "configuredAt": 1794328071838
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.6-sol",
+        "displayName": "kilo/GPT-5.6 Sol"
+      },
+      "configuredModelId": "2b7b3985-3506-49c7-bf92-cf9b19f57bc1",
+      "configuredAt": 1794328071838
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.6-terra-pro",
+        "displayName": "kilo/GPT-5.6 Terra"
+      },
+      "configuredModelId": "d208ac4e-efd6-407e-81b6-ec6f81d67e2c",
+      "configuredAt": 1794328071838
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.6-terra",
+        "displayName": "kilo/GPT-5.6 Terra"
+      },
+      "configuredModelId": "38e98e47-930f-4869-98e9-966518df0e7b",
+      "configuredAt": 1794328071838
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6-astra",
+        "displayName": "kilo/GPT-6 Astra"
+      },
+      "configuredModelId": "a10d8a48-9cf2-4248-97a5-e9413c5051ca",
+      "configuredAt": 1794328071839
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6-luna",
+        "displayName": "kilo/GPT-6 Luna"
+      },
+      "configuredModelId": "89e0a57a-a10c-42ff-b0c2-04ac2249f6cf",
+      "configuredAt": 1794328071839
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6-sol",
+        "displayName": "kilo/GPT-6 Sol"
+      },
+      "configuredModelId": "244a345c-a07b-4402-85dc-8c3231d95412",
+      "configuredAt": 1794328071839
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6.1-sol",
+        "displayName": "kilo/GPT-6.1 Sol"
+      },
+      "configuredModelId": "a2b52c07-ff68-4881-916a-75e5063bd862",
+      "configuredAt": 1794328071839
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/x-ai/grok-4.3",
+        "displayName": "kilo/Grok 4.3"
+      },
+      "configuredModelId": "2400def1-9dd6-4c83-b880-a30ef3db6618",
+      "configuredAt": 1794328071840
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/x-ai/grok-4.5",
+        "displayName": "kilo/Grok 4.5"
+      },
+      "configuredModelId": "19862fd9-70e2-4ffc-aac8-2bead8bf7c62",
+      "configuredAt": 1794328071840
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/x-ai/grok-4.6",
+        "displayName": "kilo/Grok 4.6"
+      },
+      "configuredModelId": "c02e2196-7f64-4c1f-9dd4-b39ce922a9f6",
+      "configuredAt": 1794328071840
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/x-ai/grok-4.7",
+        "displayName": "kilo/Grok 4.7"
+      },
+      "configuredModelId": "06639735-4868-4221-a874-387cdc9fc5d6",
+      "configuredAt": 1794328071840
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/tencent/hy-mt2-1.8b",
+        "displayName": "kilo/Hy-MT2-1.8B"
+      },
+      "configuredModelId": "ee0153f1-0bbf-4664-9023-946f266a70aa",
+      "configuredAt": 1794328071841
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/tencent/hy-mt2-30b-a3b",
+        "displayName": "kilo/Hy-MT2-30B-A3B"
+      },
+      "configuredModelId": "a3b1f33c-933a-436f-86a2-bc88bd603d65",
+      "configuredAt": 1794328071841
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/tencent/hy-mt2-7b",
+        "displayName": "kilo/Hy-MT2-7B"
+      },
+      "configuredModelId": "072f274e-9f66-4b2d-a841-5499c6afd2a4",
+      "configuredAt": 1794328071841
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/tencent/hy3",
+        "displayName": "kilo/Hy3"
+      },
+      "configuredModelId": "5d43c424-0769-4ede-9baf-288c483974f9",
+      "configuredAt": 1794328071841
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/tencent/hy3-preview",
+        "displayName": "kilo/Hy3 preview"
+      },
+      "configuredModelId": "d02e8231-7494-4110-8f87-0f9ac99d3817",
+      "configuredAt": 1794328071842
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/tencent/hy4-preview",
+        "displayName": "kilo/Hy4 preview"
+      },
+      "configuredModelId": "1ddab2ff-9efa-4774-b182-1189b2838c40",
+      "configuredAt": 1794328071842
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/ibm-granite/granite-4.2-8b",
+        "displayName": "kilo/IBM: Granite 4.2 8B"
+      },
+      "configuredModelId": "8fa89e7d-13f4-4e0e-84ed-22d50d74964e",
+      "configuredAt": 1794328071842
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/inclusionai/ling-3.0-flash",
+        "displayName": "kilo/inclusionAI: Ling 3.0 Flash"
+      },
+      "configuredModelId": "0ebfeeb1-bb57-40fc-8d2a-32a21d729bab",
+      "configuredAt": 1794328071843
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/inclusionai/ling-3.0-flash-vl",
+        "displayName": "kilo/inclusionAI: Ling 3.0 Flash VL"
+      },
+      "configuredModelId": "7059cd1f-01d4-4038-acce-a6bfbcf2f9f4",
+      "configuredAt": 1794328071843
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/inclusionai/ling-3.1-flash",
+        "displayName": "kilo/inclusionAI: Ling 3.1 Flash"
+      },
+      "configuredModelId": "05459824-7634-46c4-846e-7c2487f4d622",
+      "configuredAt": 1794328071844
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/inference-net/schematron-v2-small",
+        "displayName": "kilo/Inference.net: Schematron V2 Small"
+      },
+      "configuredModelId": "50a1d4ee-5a38-4697-bc0d-2aaf1e1d6cb1",
+      "configuredAt": 1794328071844
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/inference-net/schematron-v2-turbo",
+        "displayName": "kilo/Inference.net: Schematron V2 Turbo"
+      },
+      "configuredModelId": "ca99c5ba-b50b-48ea-ac55-80dccf973123",
+      "configuredAt": 1794328071844
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/thinkingmachines/inkling",
+        "displayName": "kilo/Inkling"
+      },
+      "configuredModelId": "1d78df2f-6c47-4971-bb42-c0c5d096aeb5",
+      "configuredAt": 1794328071844
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/thinkingmachines/inkling-small",
+        "displayName": "kilo/Inkling Small"
+      },
+      "configuredModelId": "3d492141-256b-4640-a9d9-5f646d2b767d",
+      "configuredAt": 1794328071845
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/moonshotai/kimi-k2",
+        "displayName": "kilo/Kimi K2 0711"
+      },
+      "configuredModelId": "9984757d-be96-4812-a54e-4f5cb38c3d19",
+      "configuredAt": 1794328071845
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/moonshotai/kimi-k2-0905",
+        "displayName": "kilo/Kimi K2 Instruct 0905"
+      },
+      "configuredModelId": "6c93030a-9c56-4206-9a01-a3bbc58f8a9c",
+      "configuredAt": 1794328071845
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/moonshotai/kimi-k2-thinking",
+        "displayName": "kilo/Kimi K2 Thinking"
+      },
+      "configuredModelId": "2d1adf67-dc79-4c25-89b2-bb0c5ceabeff",
+      "configuredAt": 1794328071845
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/moonshotai/kimi-k2.5",
+        "displayName": "kilo/Kimi K2.5"
+      },
+      "configuredModelId": "da7fa0e9-d68b-426a-91d0-98a760ab81db",
+      "configuredAt": 1794328071846
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/moonshotai/kimi-k2.6",
+        "displayName": "kilo/Kimi K2.6"
+      },
+      "configuredModelId": "5cd8cbaa-27aa-41d3-9934-a0c27d274c18",
+      "configuredAt": 1794328071846
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/moonshotai/kimi-k2.7-code",
+        "displayName": "kilo/Kimi K2.7 Code"
+      },
+      "configuredModelId": "911997eb-41e7-4336-b4d8-e6905c00f10d",
+      "configuredAt": 1794328071846
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/moonshotai/kimi-k3",
+        "displayName": "kilo/Kimi K3"
+      },
+      "configuredModelId": "72f2982c-f9f8-4915-9365-4c5b26da7527",
+      "configuredAt": 1794328071846
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/liquid/lfm-2.5-24b-a2b",
+        "displayName": "kilo/LiquidAI: LFM2.5-24B-A2B"
+      },
+      "configuredModelId": "d08ff9a1-77a0-4fb6-8766-3ca1c426d721",
+      "configuredAt": 1794328071847
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/meta-llama/llama-3.1-70b-instruct",
+        "displayName": "kilo/Llama-3.1-70B-Instruct"
+      },
+      "configuredModelId": "3890a559-ef64-436e-838f-171103706d89",
+      "configuredAt": 1794328071847
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/meta-llama/llama-3.1-8b-instruct",
+        "displayName": "kilo/Llama-3.1-8B-Instruct"
+      },
+      "configuredModelId": "66b01152-4300-4334-8172-b1765fce08c5",
+      "configuredAt": 1794328071848
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/meta-llama/llama-3.3-70b-instruct",
+        "displayName": "kilo/Llama-3.3-70B-Instruct"
+      },
+      "configuredModelId": "d8b6a6cc-be76-4d07-beb9-50708f72e17c",
+      "configuredAt": 1794328071848
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/lyria-3-clip-preview",
+        "displayName": "kilo/Lyria 3 Clip Preview"
+      },
+      "configuredModelId": "413ececf-541c-4765-ada3-208fef9a355d",
+      "configuredAt": 1794328071848
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/lyria-3-pro-preview",
+        "displayName": "kilo/Lyria 3 Pro Preview"
+      },
+      "configuredModelId": "169064ad-610f-442f-84a4-7397ac5724b5",
+      "configuredAt": 1794328071849
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/anthracite-org/magnum-v4-72b",
+        "displayName": "kilo/Magnum v4 72B"
+      },
+      "configuredModelId": "1f0c4ba6-cf0b-4158-8bfc-350e37be80e7",
+      "configuredAt": 1794328071849
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mancer/weaver",
+        "displayName": "kilo/Mancer: Weaver (alpha)"
+      },
+      "configuredModelId": "c3da7eb7-d9ed-4bf8-ab1b-fd7136c751a6",
+      "configuredAt": 1794328071849
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/meituan/longcat-2.0",
+        "displayName": "kilo/Meituan: LongCat 2.0"
+      },
+      "configuredModelId": "089087ae-72a7-4f8b-877c-52079cc6c37a",
+      "configuredAt": 1794328071850
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/meta-llama/llama-3.2-3b-instruct",
+        "displayName": "kilo/Meta: Llama 3.2 3B Instruct"
+      },
+      "configuredModelId": "15776692-e4d3-47d9-9703-fd64a3653209",
+      "configuredAt": 1794328071850
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/meta-llama/llama-4-maverick",
+        "displayName": "kilo/Meta: Llama 4 Maverick"
+      },
+      "configuredModelId": "469ef3be-2c07-45a5-8a81-dc47bc45fd4b",
+      "configuredAt": 1794328071850
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/meta-llama/llama-4-scout",
+        "displayName": "kilo/Meta: Llama 4 Scout"
+      },
+      "configuredModelId": "72a5c49a-7af8-43cc-a16f-e5e073b53f20",
+      "configuredAt": 1794328071851
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/meta-llama/llama-guard-4-12b",
+        "displayName": "kilo/Meta: Llama Guard 4 12B"
+      },
+      "configuredModelId": "e01ee2c9-89c5-4c43-9e1e-fca17bb3d506",
+      "configuredAt": 1794328071851
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/meta/muse-spark-1.2-contributor",
+        "displayName": "kilo/Meta: Muse Spark 1.2 Contributor"
+      },
+      "configuredModelId": "acd9349f-589e-4b40-adc9-aff7edf74454",
+      "configuredAt": 1794328071851
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/meta/muse-spark-1.3-contributor",
+        "displayName": "kilo/Meta: Muse Spark 1.3 Contributor"
+      },
+      "configuredModelId": "96f70a9b-99cd-4aa8-88a8-1f4b6627db2b",
+      "configuredAt": 1794328071852
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/meta/muse-wonder",
+        "displayName": "kilo/Meta: Muse Wonder"
+      },
+      "configuredModelId": "007282fe-d95d-4ca2-bdbf-4b166c9c3334",
+      "configuredAt": 1794328071852
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/microsoft/phi-4",
+        "displayName": "kilo/Microsoft: Phi 4"
+      },
+      "configuredModelId": "d2f48971-551c-4330-a711-13c7895caaa1",
+      "configuredAt": 1794328071853
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/xiaomi/mimo-v2.6-flash",
+        "displayName": "kilo/MiMo-V2.6-Flash"
+      },
+      "configuredModelId": "7e357021-3b10-40dc-93a3-cc03403712c9",
+      "configuredAt": 1794328071854
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/xiaomi/mimo-v2.6-pro",
+        "displayName": "kilo/MiMo-V2.6-Pro"
+      },
+      "configuredModelId": "dd124d9d-4d2b-4653-b3e3-09b66d4a4b41",
+      "configuredAt": 1794328071855
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/xiaomi/mimo-v2.6-pro-ultraspeed",
+        "displayName": "kilo/MiMo-V2.6-Pro-UltraSpeed"
+      },
+      "configuredModelId": "cd91b398-6e34-4d02-9a2d-d461577308b2",
+      "configuredAt": 1794328071855
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/minimax/minimax-m2.5",
+        "displayName": "kilo/MiniMax-M2.5"
+      },
+      "configuredModelId": "08f4582a-d753-4081-ae5d-aa46baf0d551",
+      "configuredAt": 1794328071856
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/minimax/minimax-m2.7",
+        "displayName": "kilo/MiniMax-M2.7"
+      },
+      "configuredModelId": "4790ffb8-9b7c-4dad-9e25-a47bd01ebccd",
+      "configuredAt": 1794328071856
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/minimax/minimax-m3",
+        "displayName": "kilo/MiniMax-M3"
+      },
+      "configuredModelId": "a9f5d9c5-9332-4abc-aa1e-8b70e3daf494",
+      "configuredAt": 1794328071856
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/ministral-14b-2512",
+        "displayName": "kilo/Ministral 3 14B 2512"
+      },
+      "configuredModelId": "50a9245c-f43e-4e46-b553-dedb61860610",
+      "configuredAt": 1794328071857
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/ministral-3b-2512",
+        "displayName": "kilo/Ministral 3 3B 2512"
+      },
+      "configuredModelId": "162f59c6-e2c8-4a8a-8822-83312fe5fc6a",
+      "configuredAt": 1794328071857
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/ministral-8b-2512",
+        "displayName": "kilo/Ministral 3 8B 2512"
+      },
+      "configuredModelId": "bad1a477-f60f-483f-b32a-d03faf8e59f0",
+      "configuredAt": 1794328071857
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/mistral-large",
+        "displayName": "kilo/Mistral Large"
+      },
+      "configuredModelId": "ff517cbf-eed5-4d27-a95c-4bd60eec6cbd",
+      "configuredAt": 1794328071857
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/mistral-large-2407",
+        "displayName": "kilo/Mistral Large 2407"
+      },
+      "configuredModelId": "93ec1a46-6dfa-4d38-8bc7-ce7b012006fa",
+      "configuredAt": 1794328071857
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/mistral-large-2512",
+        "displayName": "kilo/Mistral Large 3"
+      },
+      "configuredModelId": "c79de6b0-32d0-4534-9780-0a7d98180811",
+      "configuredAt": 1794328071857
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/mistral-medium-3",
+        "displayName": "kilo/Mistral Medium 3"
+      },
+      "configuredModelId": "b2fa3a27-b691-4bd6-96c8-4f911fa3a71f",
+      "configuredAt": 1794328071858
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/mistral-medium-3.1",
+        "displayName": "kilo/Mistral Medium 3.1"
+      },
+      "configuredModelId": "2b04b18c-f588-49fd-b843-3fb22ff2d244",
+      "configuredAt": 1794328071858
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/mistral-medium-3-5",
+        "displayName": "kilo/Mistral Medium 3.5"
+      },
+      "configuredModelId": "850d06e5-a5a5-4d27-846f-d1770c125d4e",
+      "configuredAt": 1794328071858
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/mistral-nemo",
+        "displayName": "kilo/Mistral Nemo"
+      },
+      "configuredModelId": "c5cd859b-4baa-4607-9427-6e4b9dfd7964",
+      "configuredAt": 1794328071859
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/mistral-small-24b-instruct-2501",
+        "displayName": "kilo/Mistral Small 3"
+      },
+      "configuredModelId": "e83f792f-aeb9-4035-b2bb-ad9c2aabd9ff",
+      "configuredAt": 1794328071859
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/mistral-small-3.1-24b-instruct",
+        "displayName": "kilo/Mistral Small 3.1 24B"
+      },
+      "configuredModelId": "ffc9b105-06a7-43dc-b7b1-c5232b04509c",
+      "configuredAt": 1794328071859
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/mistral-small-3.2-24b-instruct",
+        "displayName": "kilo/Mistral Small 3.2 24B"
+      },
+      "configuredModelId": "93519bae-6e39-4308-a9db-dfe28b678c14",
+      "configuredAt": 1794328071859
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/mistral-small-2603",
+        "displayName": "kilo/Mistral Small 4"
+      },
+      "configuredModelId": "ce486bc1-188b-4a90-b12a-5104436d94df",
+      "configuredAt": 1794328071860
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/mistral-large-4-0",
+        "displayName": "kilo/Mistral: Mistral Large 4"
+      },
+      "configuredModelId": "68aea8a6-bd26-4a26-8e1a-eb0db3152290",
+      "configuredAt": 1794328071860
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/mixtral-8x22b-instruct",
+        "displayName": "kilo/Mixtral 8x22B Instruct"
+      },
+      "configuredModelId": "910087c6-a86c-48cd-957a-16c5f9bee5ac",
+      "configuredAt": 1794328071860
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/moondream/moondream3-preview",
+        "displayName": "kilo/Moondream: Moondream 3 Preview"
+      },
+      "configuredModelId": "0673f6a5-80cf-4485-adb7-417a9b5039dc",
+      "configuredAt": 1794328071860
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/moondream/moondream3.1-9b-a2b",
+        "displayName": "kilo/Moondream: Moondream 3.1"
+      },
+      "configuredModelId": "9f19a20b-9935-410e-925d-0f9c802f586d",
+      "configuredAt": 1794328071861
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/~moonshotai/kimi-latest",
+        "displayName": "kilo/MoonshotAI: Kimi Latest"
+      },
+      "configuredModelId": "a7a3f439-fea1-4759-85f0-5e78e874448e",
+      "configuredAt": 1794328071861
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/morph/morph-v3-fast",
+        "displayName": "kilo/Morph: Morph V3 Fast"
+      },
+      "configuredModelId": "28185c8e-66d7-435e-a88b-9247aa6ca92b",
+      "configuredAt": 1794328071861
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/morph/morph-v3-large",
+        "displayName": "kilo/Morph: Morph V3 Large"
+      },
+      "configuredModelId": "1ed6e04c-ad25-4962-a542-91035993e134",
+      "configuredAt": 1794328071862
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/meta/muse-glimmer-30b",
+        "displayName": "kilo/Muse Glimmer 30B"
+      },
+      "configuredModelId": "586cb73b-b4fe-42e4-a7e0-fb96340b3dfe",
+      "configuredAt": 1794328071862
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/meta/muse-spark-1.1",
+        "displayName": "kilo/Muse Spark 1.1"
+      },
+      "configuredModelId": "1c0b6a3f-117b-4324-9f93-1cf396e81485",
+      "configuredAt": 1794328071862
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/meta/muse-spark-1.2",
+        "displayName": "kilo/Muse Spark 1.2"
+      },
+      "configuredModelId": "acd819e0-b9eb-41e6-9f05-ebf6e30495ae",
+      "configuredAt": 1794328071862
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/meta/muse-spark-1.3",
+        "displayName": "kilo/Muse Spark 1.3"
+      },
+      "configuredModelId": "03bd47cd-c5be-4cee-ae37-982639bb9a6e",
+      "configuredAt": 1794328071863
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/meta/muse-spark-open",
+        "displayName": "kilo/Muse Spark Open"
+      },
+      "configuredModelId": "c31e3dd6-2c62-436e-ad8d-575807128d88",
+      "configuredAt": 1794328071863
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/gryphe/mythomax-l2-13b",
+        "displayName": "kilo/MythoMax 13B"
+      },
+      "configuredModelId": "682d04c0-8da4-41a7-9230-e39b3a3ab092",
+      "configuredAt": 1794328071863
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-2.5-flash-image",
+        "displayName": "kilo/Nano Banana"
+      },
+      "configuredModelId": "cd889330-420b-49b3-b027-1a1d5d936e8b",
+      "configuredAt": 1794328071863
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-3.1-flash-image",
+        "displayName": "kilo/Nano Banana 2"
+      },
+      "configuredModelId": "a5a9dc45-1fe8-4db7-857d-7eb109c05872",
+      "configuredAt": 1794328071864
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-3.1-flash-lite-image",
+        "displayName": "kilo/Nano Banana 2 Lite"
+      },
+      "configuredModelId": "2bd2ddc3-c87d-4f4f-a679-878d3dab732c",
+      "configuredAt": 1794328071864
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-3.1-flash-image-preview",
+        "displayName": "kilo/Nano Banana 2 Preview"
+      },
+      "configuredModelId": "73c6891a-c841-4e1a-961e-a76ed5cc2921",
+      "configuredAt": 1794328071864
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-nano-banana-2.1",
+        "displayName": "kilo/Nano Banana 2.1"
+      },
+      "configuredModelId": "538317f9-14ec-459b-b5b2-98e6955dfb3e",
+      "configuredAt": 1794328071864
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-3-pro-image",
+        "displayName": "kilo/Nano Banana Pro"
+      },
+      "configuredModelId": "ad6f5690-4c24-48c1-9ab3-3c9a9f678553",
+      "configuredAt": 1794328071865
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-3-pro-image-preview",
+        "displayName": "kilo/Nano Banana Pro Preview"
+      },
+      "configuredModelId": "047fd7bf-81e9-40dd-a172-1c91fb9f3e57",
+      "configuredAt": 1794328071865
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/nvidia/nemotron-3-nano-30b-a3b",
+        "displayName": "kilo/Nemotron 3 Nano 30B A3B"
+      },
+      "configuredModelId": "e3d339f0-b86c-4512-8373-2cdd544271e3",
+      "configuredAt": 1794328071865
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/nvidia/nemotron-3-super-120b-a12b",
+        "displayName": "kilo/Nemotron 3 Super 120B A12B"
+      },
+      "configuredModelId": "799bd76e-4371-4da7-961e-8d61b588e3db",
+      "configuredAt": 1794328071865
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/nvidia/nemotron-3-ultra-550b-a55b",
+        "displayName": "kilo/Nemotron 3 Ultra 550B A55B"
+      },
+      "configuredModelId": "f9a1618e-5f5f-452d-a598-029d478f5267",
+      "configuredAt": 1794328071866
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/nvidia/nemotron-3.5-content-safety",
+        "displayName": "kilo/Nemotron 3.5 Content Safety"
+      },
+      "configuredModelId": "798e7439-637b-4cc4-84f1-98bfe9ae8504",
+      "configuredAt": 1794328071866
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/nvidia/nemotron-3.5-lightning",
+        "displayName": "kilo/Nemotron 3.5 Lightning 30B A3B"
+      },
+      "configuredModelId": "a4f88eab-251d-4f9e-81fa-bf1f09ff6520",
+      "configuredAt": 1794328071866
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/nex-agi/nex-n2.5-mini",
+        "displayName": "kilo/Nex AGI: Nex-N2.5-Mini"
+      },
+      "configuredModelId": "92dca46b-7eb3-410e-a668-c0bb16683ac8",
+      "configuredAt": 1794328071866
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/nex-agi/nex-n2.5-pro",
+        "displayName": "kilo/Nex AGI: Nex-N2.5-Pro"
+      },
+      "configuredModelId": "b887e3f7-5e1d-4fa3-9fb7-bedd04528e05",
+      "configuredAt": 1794328071866
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/nousresearch/hermes-4-405b",
+        "displayName": "kilo/Nous: Hermes 4 405B"
+      },
+      "configuredModelId": "cc6ddd94-0ef8-4af6-846a-e94b0c2ed320",
+      "configuredAt": 1794328071866
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+        "displayName": "kilo/NVIDIA: Nemotron 3 Nano Omni (free)"
+      },
+      "configuredModelId": "341867d4-dbff-4018-89c1-bbd676ba1baa",
+      "configuredAt": 1794328071867
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/nvidia/nemotron-3-ultra-550b-a55b:free",
+        "displayName": "kilo/NVIDIA: Nemotron 3 Ultra (free)"
+      },
+      "configuredModelId": "d84a9c16-c402-4f94-8b30-d0974fff804f",
+      "configuredAt": 1794328071867
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/nvidia/nemotron-3.5-lightning:free",
+        "displayName": "kilo/NVIDIA: Nemotron 3.5 Lightning (free)"
+      },
+      "configuredModelId": "5b349c76-4b1d-41f5-b01f-25eb93dd3ca7",
+      "configuredAt": 1794328071867
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/nvidia/nemotron-3.5-super-vl",
+        "displayName": "kilo/NVIDIA: Nemotron 3.5 Super VL"
+      },
+      "configuredModelId": "d64a2fa5-36c9-4756-9061-e67061b12873",
+      "configuredAt": 1794328071867
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/nvidia/nemotron-3.5-super-vl:free",
+        "displayName": "kilo/NVIDIA: Nemotron 3.5 Super VL (free)"
+      },
+      "configuredModelId": "5847cac7-6039-47c9-8d21-b154a2ce86e8",
+      "configuredAt": 1794328071868
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/o3",
+        "displayName": "kilo/o3"
+      },
+      "configuredModelId": "f94ce64e-1322-4c32-b0d6-b24010ce1f44",
+      "configuredAt": 1794328071868
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/o3-pro",
+        "displayName": "kilo/o3-pro"
+      },
+      "configuredModelId": "c85b56d5-d6d1-4d7e-9e4c-3394039d92a4",
+      "configuredAt": 1794328071869
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/~openai/gpt-astra-latest",
+        "displayName": "kilo/OpenAI: GPT Astra Latest"
+      },
+      "configuredModelId": "96f50e5e-4007-46a3-8be5-471a207f97dc",
+      "configuredAt": 1794328071870
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-audio",
+        "displayName": "kilo/GPT-Audio"
+      },
+      "configuredModelId": "b3bceedf-0bd3-435d-a423-af5770e186b0",
+      "configuredAt": 1794328071870
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-audio-mini",
+        "displayName": "kilo/GPT-Audio Mini"
+      },
+      "configuredModelId": "7434bd97-66e6-46da-beed-90ee3dd4cb12",
+      "configuredAt": 1794328071870
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-chat-latest",
+        "displayName": "kilo/OpenAI: GPT Chat Latest"
+      },
+      "configuredModelId": "cf37c08d-094e-475f-b726-e1012b4b3577",
+      "configuredAt": 1794328071871
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/~openai/gpt-luna-latest",
+        "displayName": "kilo/OpenAI: GPT Luna Latest"
+      },
+      "configuredModelId": "b4211d94-4cf1-47c6-aa42-308371eede83",
+      "configuredAt": 1794328071871
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/~openai/gpt-mini-latest",
+        "displayName": "kilo/OpenAI: GPT Mini Latest"
+      },
+      "configuredModelId": "493b98f2-4df5-46d9-a68a-833c11f83bde",
+      "configuredAt": 1794328071871
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/~openai/gpt-sol-latest",
+        "displayName": "kilo/OpenAI: GPT Sol Latest"
+      },
+      "configuredModelId": "c32913c4-36e0-47e1-aa02-2053362c8cb2",
+      "configuredAt": 1794328071871
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/~openai/gpt-terra-latest",
+        "displayName": "kilo/OpenAI: GPT Terra Latest"
+      },
+      "configuredModelId": "a1fafe06-ecdf-433a-bfbe-be8161a9921b",
+      "configuredAt": 1794328071872
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-3.5-turbo-0613",
+        "displayName": "kilo/OpenAI: GPT-3.5 Turbo (older v0613)"
+      },
+      "configuredModelId": "91711bef-407a-484f-b2a6-f7cf50c3be9c",
+      "configuredAt": 1794328071872
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-3.5-turbo-16k",
+        "displayName": "kilo/OpenAI: GPT-3.5 Turbo 16k"
+      },
+      "configuredModelId": "677e6e2b-e9c7-46c9-a1e4-3c3d1bdab138",
+      "configuredAt": 1794328071872
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-4o-mini-2024-07-18",
+        "displayName": "kilo/OpenAI: GPT-4o-mini (2024-07-18)"
+      },
+      "configuredModelId": "585f62f7-d78b-4a18-85ab-273949cf63ae",
+      "configuredAt": 1794328071873
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6-astra-pro",
+        "displayName": "kilo/OpenAI: GPT-6 Astra Pro"
+      },
+      "configuredModelId": "e47a7679-9308-4c62-b8b7-ca692c487971",
+      "configuredAt": 1794328071875
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6-luna-pro",
+        "displayName": "kilo/OpenAI: GPT-6 Luna Pro"
+      },
+      "configuredModelId": "214e8178-5373-41b0-8911-b77fabee4a1c",
+      "configuredAt": 1794328071876
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6-sol-pro",
+        "displayName": "kilo/OpenAI: GPT-6 Sol Pro"
+      },
+      "configuredModelId": "c9cb08ed-8b17-48fa-adff-98fca4a784cf",
+      "configuredAt": 1794328071876
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6.1-sol-pro",
+        "displayName": "kilo/OpenAI: GPT-6.1 Sol Pro"
+      },
+      "configuredModelId": "986dcfe8-5da6-43e5-b48d-3fe5ad2c8b5a",
+      "configuredAt": 1794328071876
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openrouter/free",
+        "displayName": "kilo/OpenRouter Free Models Router"
+      },
+      "configuredModelId": "061c533d-e099-43aa-919f-69904a619c5d",
+      "configuredAt": 1794328071877
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/unbiased/pareto-26.9",
+        "displayName": "kilo/Pareto 26.9"
+      },
+      "configuredModelId": "404471a2-3a2a-42cd-ad0b-48da8c246918",
+      "configuredAt": 1794328071877
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openrouter/pareto-code",
+        "displayName": "kilo/Pareto Code Router"
+      },
+      "configuredModelId": "65534276-97cc-4735-bec7-24f14bd75bf0",
+      "configuredAt": 1794328071877
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/~unbiased/pareto-latest",
+        "displayName": "kilo/Pareto Latest"
+      },
+      "configuredModelId": "994f0723-7468-47bd-81dd-647c8f74328b",
+      "configuredAt": 1794328071878
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/perceptron/perceptron-mk1",
+        "displayName": "kilo/Perceptron: Perceptron Mk1"
+      },
+      "configuredModelId": "1f7e6c4a-44a6-4a2e-a2a2-bd1e8050235b",
+      "configuredAt": 1794328071878
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/perceptron/perceptron-mk1.5",
+        "displayName": "kilo/Perceptron: Perceptron Mk1.5"
+      },
+      "configuredModelId": "e4c41fb7-aa72-41af-85b2-32250561bfe5",
+      "configuredAt": 1794328071878
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/perplexity/sonar",
+        "displayName": "kilo/Perplexity: Sonar"
+      },
+      "configuredModelId": "596a82f8-4f4c-49ba-a678-41e05b8b7f54",
+      "configuredAt": 1794328071878
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/perplexity/sonar-deep-research",
+        "displayName": "kilo/Perplexity: Sonar Deep Research"
+      },
+      "configuredModelId": "e39c35c1-30a5-4715-a1f0-9c55cd6ce227",
+      "configuredAt": 1794328071879
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/perplexity/sonar-pro",
+        "displayName": "kilo/Perplexity: Sonar Pro"
+      },
+      "configuredModelId": "f5abdf82-01b0-4105-b0c9-278a197d45cc",
+      "configuredAt": 1794328071879
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/perplexity/sonar-pro-search",
+        "displayName": "kilo/Perplexity: Sonar Pro Search"
+      },
+      "configuredModelId": "b90e8e68-b814-4812-ad47-d02cb7adf399",
+      "configuredAt": 1794328071879
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/perplexity/sonar-reasoning-pro",
+        "displayName": "kilo/Perplexity: Sonar Reasoning Pro"
+      },
+      "configuredModelId": "e9adb8a6-3a9c-4601-bdfd-0227abf6378b",
+      "configuredAt": 1794328071879
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/prism-ml/ternary-bonsai-2-27b",
+        "displayName": "kilo/PrismML: Ternary Bonsai 2 27B"
+      },
+      "configuredModelId": "539d0d73-ae9f-4e83-8619-d41b2e593ed1",
+      "configuredAt": 1794328071880
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.8-max-prime",
+        "displayName": "kilo/Qwen 3.8 Max Prime"
+      },
+      "configuredModelId": "95945df6-fe9a-48c8-9f55-f50d9ece9523",
+      "configuredAt": 1794328071881
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen-plus",
+        "displayName": "kilo/Qwen Plus"
+      },
+      "configuredModelId": "8c5f4e9d-7249-4fd7-8775-a2ec576d9a9f",
+      "configuredAt": 1794328071881
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen2.5-vl-72b-instruct",
+        "displayName": "kilo/Qwen: Qwen2.5 VL 72B Instruct"
+      },
+      "configuredModelId": "5b7d8454-6f36-469e-bc64-f6712fccfa48",
+      "configuredAt": 1794328071881
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3-14b",
+        "displayName": "kilo/Qwen: Qwen3 14B"
+      },
+      "configuredModelId": "c43be889-295d-4f57-8fca-9a3d8264ac9f",
+      "configuredAt": 1794328071882
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3-235b-a22b-2507",
+        "displayName": "kilo/Qwen: Qwen3 235B A22B Instruct 2507"
+      },
+      "configuredModelId": "3542a33f-52a4-4d9f-bbf1-0d285318f04b",
+      "configuredAt": 1794328071882
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3-235b-a22b-thinking-2507",
+        "displayName": "kilo/Qwen: Qwen3 235B A22B Thinking 2507"
+      },
+      "configuredModelId": "31ae60ec-2ae6-467b-b456-2df80b60039f",
+      "configuredAt": 1794328071882
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3-30b-a3b-instruct-2507",
+        "displayName": "kilo/Qwen: Qwen3 30B A3B Instruct 2507"
+      },
+      "configuredModelId": "06761c3f-eafb-48bf-a002-3749ec7d5be8",
+      "configuredAt": 1794328071883
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3-coder",
+        "displayName": "kilo/Qwen: Qwen3 Coder 480B A35B"
+      },
+      "configuredModelId": "60aa2325-d43b-4f73-af9e-5465286424ae",
+      "configuredAt": 1794328071883
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3-vl-8b-instruct",
+        "displayName": "kilo/Qwen: Qwen3 VL 8B Instruct"
+      },
+      "configuredModelId": "e3814da6-a1d6-417f-8389-25b5766a8a80",
+      "configuredAt": 1794328071883
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.5-plus-02-15",
+        "displayName": "kilo/Qwen: Qwen3.5 Plus 2026-02-15"
+      },
+      "configuredModelId": "9db41af9-c5ee-4da6-940c-10a3a4627f91",
+      "configuredAt": 1794328071884
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.5-plus-20260420",
+        "displayName": "kilo/Qwen: Qwen3.5 Plus 2026-04-20"
+      },
+      "configuredModelId": "3f31bbeb-4738-46dd-bb43-df6ce1d4012a",
+      "configuredAt": 1794328071884
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.5-flash-02-23",
+        "displayName": "kilo/Qwen: Qwen3.5-Flash"
+      },
+      "configuredModelId": "21d5d6e9-88a1-41a7-9159-4ed5c448a715",
+      "configuredAt": 1794328071884
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen-2.5-72b-instruct",
+        "displayName": "kilo/Qwen2.5 72B Instruct"
+      },
+      "configuredModelId": "cc6bfb8e-f070-4294-8677-1a2047366e5a",
+      "configuredAt": 1794328071884
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen-2.5-coder-32b-instruct",
+        "displayName": "kilo/Qwen2.5 Coder 32B Instruct"
+      },
+      "configuredModelId": "f6d715ae-f94e-47ab-b274-5330cc7b1ef4",
+      "configuredAt": 1794328071885
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3-30b-a3b",
+        "displayName": "kilo/Qwen3 30B A3B"
+      },
+      "configuredModelId": "c9b493ef-7879-4842-a397-62d9b31a1ca3",
+      "configuredAt": 1794328071885
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3-32b",
+        "displayName": "kilo/Qwen3 32B"
+      },
+      "configuredModelId": "1348f34a-8cca-4fdc-9d0e-6ba30c6a9859",
+      "configuredAt": 1794328071885
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3-coder-flash",
+        "displayName": "kilo/Qwen3 Coder Flash"
+      },
+      "configuredModelId": "7832a82e-3a43-435c-bce4-527192db0dc2",
+      "configuredAt": 1794328071886
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3-coder-next",
+        "displayName": "kilo/Qwen3 Coder Next"
+      },
+      "configuredModelId": "9920b48d-5edc-4a5a-9768-9e3dfa383bd5",
+      "configuredAt": 1794328071886
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3-vl-235b-a22b-instruct",
+        "displayName": "kilo/Qwen3 VL 235B A22B Instruct"
+      },
+      "configuredModelId": "1d278104-b279-4b0b-bf27-c26be3f57149",
+      "configuredAt": 1794328071886
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3-vl-30b-a3b-instruct",
+        "displayName": "kilo/Qwen3 VL 30B A3B Instruct"
+      },
+      "configuredModelId": "99216b36-70be-4679-b942-6f3447f1a331",
+      "configuredAt": 1794328071886
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3-coder-30b-a3b-instruct",
+        "displayName": "kilo/Qwen3-Coder 30B-A3B Instruct"
+      },
+      "configuredModelId": "2b139ad6-ba80-4ce1-9149-24bb159c923e",
+      "configuredAt": 1794328071887
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3-next-80b-a3b-instruct",
+        "displayName": "kilo/Qwen3-Next 80B-A3B Instruct"
+      },
+      "configuredModelId": "15d43d64-0c74-483a-9f6b-bc0eb8985171",
+      "configuredAt": 1794328071887
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.5-122b-a10b",
+        "displayName": "kilo/Qwen3.5 122B-A10B"
+      },
+      "configuredModelId": "38e861b3-00f5-4433-a12b-f1190779ba4c",
+      "configuredAt": 1794328071888
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.5-27b",
+        "displayName": "kilo/Qwen3.5 27B"
+      },
+      "configuredModelId": "406ee975-bcdb-409c-9f85-c9df03483d1a",
+      "configuredAt": 1794328071888
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.5-35b-a3b",
+        "displayName": "kilo/Qwen3.5 35B-A3B"
+      },
+      "configuredModelId": "91ecddfa-dadc-4aa8-9a1f-5dd4354595a6",
+      "configuredAt": 1794328071888
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.5-397b-a17b",
+        "displayName": "kilo/Qwen3.5 397B-A17B"
+      },
+      "configuredModelId": "a95089fe-a3bb-4323-a217-b9bf4253d93c",
+      "configuredAt": 1794328071888
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.6-27b",
+        "displayName": "kilo/Qwen3.6 27B"
+      },
+      "configuredModelId": "96df42cc-e517-46da-b212-697861c5833d",
+      "configuredAt": 1794328071889
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.6-35b-a3b",
+        "displayName": "kilo/Qwen3.6 35B-A3B"
+      },
+      "configuredModelId": "be7f7235-0f01-4232-a36b-2d0a53d0491a",
+      "configuredAt": 1794328071889
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.6-flash",
+        "displayName": "kilo/Qwen3.6 Flash"
+      },
+      "configuredModelId": "bb78214a-5a60-41d8-af1f-3aacd42099bc",
+      "configuredAt": 1794328071890
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.6-plus",
+        "displayName": "kilo/Qwen3.6 Plus"
+      },
+      "configuredModelId": "a068f2fd-7eca-48e9-a49b-d7dd27055180",
+      "configuredAt": 1794328071890
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.7-flash",
+        "displayName": "kilo/Qwen3.7 Flash"
+      },
+      "configuredModelId": "7e32d274-0f9b-4064-86db-4550df8e49f7",
+      "configuredAt": 1794328071890
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.7-max",
+        "displayName": "kilo/Qwen3.7 Max"
+      },
+      "configuredModelId": "96beedaf-0ed8-49e9-b14c-1ff9812c5e6e",
+      "configuredAt": 1794328071890
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.7-plus",
+        "displayName": "kilo/Qwen3.7 Plus"
+      },
+      "configuredModelId": "7025b832-86a1-4b1d-a9e9-64817e977468",
+      "configuredAt": 1794328071891
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.8-2.4t-a95b",
+        "displayName": "kilo/Qwen3.8 2.4T A95B"
+      },
+      "configuredModelId": "9f04977d-d264-4e16-940a-daf1c069d426",
+      "configuredAt": 1794328071891
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.8-27b",
+        "displayName": "kilo/Qwen3.8 27B"
+      },
+      "configuredModelId": "ae43fcb1-2458-4308-ac48-23022ad5242b",
+      "configuredAt": 1794328071891
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.8-flash",
+        "displayName": "kilo/Qwen3.8 Flash"
+      },
+      "configuredModelId": "255a8f98-8bfa-4c47-9a50-ea9548843ebe",
+      "configuredAt": 1794328071891
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.8-max-0902",
+        "displayName": "kilo/Qwen3.8 Max 0902"
+      },
+      "configuredModelId": "02417cc4-1b16-48f1-ba50-06ab8604d887",
+      "configuredAt": 1794328071892
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.8-omni-flash",
+        "displayName": "kilo/Qwen3.8 Omni Flash"
+      },
+      "configuredModelId": "8b63114c-7f0f-46e0-a476-cb5a7f9ee9b5",
+      "configuredAt": 1794328071892
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/rekaai/reka-edge",
+        "displayName": "kilo/Reka Edge"
+      },
+      "configuredModelId": "44457b8d-74fc-45ab-899f-0abd9093c084",
+      "configuredAt": 1794328071892
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/rekaai/reka-flash-3",
+        "displayName": "kilo/Reka Flash 3"
+      },
+      "configuredModelId": "44ce56de-39c9-4d7d-800b-ce911c3063fb",
+      "configuredAt": 1794328071893
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/relace/relace-apply-3",
+        "displayName": "kilo/Relace: Relace Apply 3"
+      },
+      "configuredModelId": "8e54ac32-2f87-482e-9945-5a05b08cc835",
+      "configuredAt": 1794328071893
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/relace/relace-search",
+        "displayName": "kilo/Relace: Relace Search"
+      },
+      "configuredModelId": "fddc46a6-87ff-4bc6-8922-c216e0dddb98",
+      "configuredAt": 1794328071893
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/undi95/remm-slerp-l2-13b",
+        "displayName": "kilo/ReMM SLERP 13B"
+      },
+      "configuredModelId": "d8e257f1-ff97-4a65-8bf8-e258a31dbd61",
+      "configuredAt": 1794328071894
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/mistral-saba",
+        "displayName": "kilo/Saba"
+      },
+      "configuredModelId": "f48dbf7a-b0d6-4fbe-8978-3e9b04bf9d12",
+      "configuredAt": 1794328071894
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/sakana/sakana-namazu",
+        "displayName": "kilo/Sakana Namazu"
+      },
+      "configuredModelId": "6c0e6e20-2113-4b0b-8ec3-588f902ce1f6",
+      "configuredAt": 1794328071894
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/sao10k/l3-lunaris-8b",
+        "displayName": "kilo/Sao10K: Llama 3 8B Lunaris"
+      },
+      "configuredModelId": "280a5466-f1cf-41b3-be5e-b16b20127b4d",
+      "configuredAt": 1794328071894
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/sao10k/l3.1-euryale-70b",
+        "displayName": "kilo/Sao10K: Llama 3.1 Euryale 70B v2.2"
+      },
+      "configuredModelId": "6d0b79cb-b04b-49e0-bf62-75ee08065c64",
+      "configuredAt": 1794328071895
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/scaledown/extract",
+        "displayName": "kilo/ScaleDown: Extract"
+      },
+      "configuredModelId": "feb8e645-7dc5-4b4e-ab1c-47024fece156",
+      "configuredAt": 1794328071895
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/scaledown/summarize",
+        "displayName": "kilo/ScaleDown: Summarize"
+      },
+      "configuredModelId": "04681367-d8b9-4208-9b4f-7b67860c146c",
+      "configuredAt": 1794328071896
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/bytedance-seed/seed-2.0-lite",
+        "displayName": "kilo/Seed 2.0 Lite"
+      },
+      "configuredModelId": "39970594-28ab-4684-ba6b-02f72d6c6344",
+      "configuredAt": 1794328071896
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/bytedance-seed/seed-2.0-mini",
+        "displayName": "kilo/Seed 2.0 Mini"
+      },
+      "configuredModelId": "fd813727-35f0-4f68-a278-dd0b4ac8449d",
+      "configuredAt": 1794328071896
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/x-ai/grok-4.20",
+        "displayName": "kilo/SpaceXSI: Grok 4.20"
+      },
+      "configuredModelId": "3465d77d-9095-49f8-a71f-a8c809ebed22",
+      "configuredAt": 1794328071897
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/x-ai/grok-4.20-multi-agent",
+        "displayName": "kilo/SpaceXSI: Grok 4.20 Multi-Agent"
+      },
+      "configuredModelId": "de8c96f6-7727-4e29-9408-4c275a8d496d",
+      "configuredAt": 1794328071897
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/stealth/glyph-cluster",
+        "displayName": "kilo/Glyph Cluster"
+      },
+      "configuredModelId": "de17c04c-854c-4dd8-b59c-9f40044aa31a",
+      "configuredAt": 1794328071900
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/stepfun/step-3.7-flash",
+        "displayName": "kilo/Step 3.7 Flash"
+      },
+      "configuredModelId": "563e1acf-981d-4aad-919b-0471c14eabbf",
+      "configuredAt": 1794328071901
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/stepfun/step-5-preview",
+        "displayName": "kilo/Step 5 Preview"
+      },
+      "configuredModelId": "0e37ac43-11c7-4ba6-926e-d6474c755995",
+      "configuredAt": 1794328071901
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/thedrummer/cydonia-24b-v4.1",
+        "displayName": "kilo/TheDrummer: Cydonia 24B V4.1"
+      },
+      "configuredModelId": "475cd14b-4454-4a18-826e-033318b189aa",
+      "configuredAt": 1794328071901
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/thedrummer/skyfall-36b-v2",
+        "displayName": "kilo/TheDrummer: Skyfall 36B V2"
+      },
+      "configuredModelId": "1e262670-f093-465f-b9df-0bddf4281f54",
+      "configuredAt": 1794328071901
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/thedrummer/unslopnemo-12b",
+        "displayName": "kilo/TheDrummer: UnslopNemo 12B"
+      },
+      "configuredModelId": "cf96aecf-ed3d-45b7-a2ab-af9ffd7b3d16",
+      "configuredAt": 1794328071901
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/upstage/solar-mini4",
+        "displayName": "kilo/Upstage: Solar Mini 4"
+      },
+      "configuredModelId": "df0b4d4a-563e-4eeb-b792-410e3d312194",
+      "configuredAt": 1794328071902
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/upstage/solar-pro4",
+        "displayName": "kilo/Upstage: Solar Pro 4"
+      },
+      "configuredModelId": "fcc336e2-a9cf-4fea-afda-9eca36c619b7",
+      "configuredAt": 1794328071902
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/cognitivecomputations/dolphin-mistral-24b-venice-edition",
+        "displayName": "kilo/Venice: Uncensored"
+      },
+      "configuredModelId": "7c5540e7-b263-4018-b384-c34d8a6cadd7",
+      "configuredAt": 1794328071902
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/voxtral-small-24b-2507",
+        "displayName": "kilo/Voxtral Small 24B 2507"
+      },
+      "configuredModelId": "8d68f00a-f3cf-42d2-8465-6d07d35c4d9c",
+      "configuredAt": 1794328071902
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/writer/palmyra-x5",
+        "displayName": "kilo/Writer: Palmyra X5"
+      },
+      "configuredModelId": "3b94945e-1ca0-4fea-800f-89d0432a8619",
+      "configuredAt": 1794328071902
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/~x-ai/grok-latest",
+        "displayName": "kilo/xAI: Grok Latest"
+      },
+      "configuredModelId": "1ff59114-af5a-4552-8f01-8b3f058ec814",
+      "configuredAt": 1794328071903
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-5.3-flashx",
+        "displayName": "kilo/Z.ai: GLM 5.3 FlashX"
+      },
+      "configuredModelId": "89e9fe73-8c8b-4770-96c6-61be7b2e80ad",
+      "configuredAt": 1794328071903
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-5.3-prime",
+        "displayName": "kilo/Z.ai: GLM 5.3 Prime"
+      },
+      "configuredModelId": "e94818b4-11bf-4289-9377-33f84cceb510",
+      "configuredAt": 1794328071903
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/~z-ai/glm-flash-latest",
+        "displayName": "kilo/Z.ai: GLM Flash Latest"
+      },
+      "configuredModelId": "72dd5961-b881-4994-aa93-113f9fdd9dd7",
+      "configuredAt": 1794328071903
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/~z-ai/glm-latest",
+        "displayName": "kilo/Z.ai: GLM Latest"
+      },
+      "configuredModelId": "da056bcd-dfba-428a-bf43-9967ee67278e",
+      "configuredAt": 1794328071903
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "opencode/big-pickle",
+        "displayName": "opencode/Big Pickle"
+      },
+      "configuredModelId": "176254c8-afe7-4324-8ac9-746740ba071f",
+      "configuredAt": 1794328071903
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "opencode/deepseek-v4.1-flash-free",
+        "displayName": "opencode/DeepSeek V4.1 Flash Free"
+      },
+      "configuredModelId": "daaf7103-e1f8-4a41-b894-a0e4b202454a",
+      "configuredAt": 1794328071903
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "opencode/mimo-v2.6-flash-free",
+        "displayName": "opencode/MiMo-V2.6-Flash Free"
+      },
+      "configuredModelId": "3814e32c-3a7e-43a1-b4cc-0a5c9ac4280b",
+      "configuredAt": 1794328071904
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "opencode/nemotron-3.5-lightning-free",
+        "displayName": "opencode/Nemotron 3.5 Lightning Free"
+      },
+      "configuredModelId": "e7b5c565-abb8-427b-a158-65dba9af1923",
+      "configuredAt": 1794328071904
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "opencode/nemotron-3.5-super-vl-free",
+        "displayName": "opencode/Nemotron 3.5 Super VL Free"
+      },
+      "configuredModelId": "0acb5265-8c48-405a-bae8-bc1a8897ddd0",
+      "configuredAt": 1794328071905
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/anthropic/claude-fable-5.2",
+        "displayName": "kilo/Anthropic: Claude Fable 5.2"
+      },
+      "configuredModelId": "2d839a52-d777-4c7b-8dbb-7ce85d6ef029",
+      "configuredAt": 1794414511919
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/baidu/ernie-5.5-flash-preview:free",
+        "displayName": "kilo/Baidu: ERNIE-5.5-Flash-Preview (free)"
+      },
+      "configuredModelId": "df651d6f-92d1-45dd-9115-08cd6be3b6a2",
+      "configuredAt": 1794414511920
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/baidu/ernie-light-dt-1.0-intl",
+        "displayName": "kilo/Baidu: ERNIE-Light-DT-1.0"
+      },
+      "configuredModelId": "9e36b513-e63c-40d7-a8bc-8aa2d5bcb544",
+      "configuredAt": 1794414511920
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/deepseek/deepseek-v4.1-flash-1017",
+        "displayName": "kilo/DeepSeek V4.1 Flash 1017"
+      },
+      "configuredModelId": "79df44fb-f9a8-44f2-9e8a-6ec0945d489e",
+      "configuredAt": 1794414511921
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/elorian/glimpse",
+        "displayName": "kilo/Elorian: Glimpse"
+      },
+      "configuredModelId": "d7e390f7-49c0-4afd-9feb-985341e1f0b3",
+      "configuredAt": 1794414511921
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-4-carbon",
+        "displayName": "kilo/Google: Gemini 4 Carbon"
+      },
+      "configuredModelId": "80c1ff54-8f50-4bda-919a-f595607eb1a6",
+      "configuredAt": 1794414511922
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-omni-1.1-flash",
+        "displayName": "kilo/Google: Gemini Omni 1.1 Flash"
+      },
+      "configuredModelId": "0a8121d9-c5df-4238-b1ec-bd3ee2873292",
+      "configuredAt": 1794414511922
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-omni-1.2-flash",
+        "displayName": "kilo/Google: Gemini Omni 1.2 Flash"
+      },
+      "configuredModelId": "a78483d6-cb3c-4dab-a6c3-a73bad473d39",
+      "configuredAt": 1794414511922
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/inclusionai/ling-3.0-tiny",
+        "displayName": "kilo/inclusionAI: Ling 3.0 Tiny"
+      },
+      "configuredModelId": "4d9c2835-f666-4647-886d-d464e473d222",
+      "configuredAt": 1794414511923
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/kt/midm-k-3.0-pro",
+        "displayName": "kilo/KT: Mi:dm K 3.0 Pro"
+      },
+      "configuredModelId": "55274010-1144-434d-8b6a-6a2e08f2e8ba",
+      "configuredAt": 1794414511924
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/liquid/lfm-3-1.7b",
+        "displayName": "kilo/LiquidAI: LFM3-1.7B"
+      },
+      "configuredModelId": "712e6e6e-6b9e-4e34-819a-dd21df67b4fe",
+      "configuredAt": 1794414511925
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/liquid/lfm-3-1.7b:free",
+        "displayName": "kilo/LiquidAI: LFM3-1.7B (free)"
+      },
+      "configuredModelId": "300361b7-85bb-4b1c-9bc6-3febefc1891d",
+      "configuredAt": 1794414511925
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/meta/muse-ember",
+        "displayName": "kilo/Meta: Muse Ember"
+      },
+      "configuredModelId": "e9474431-3963-4486-9ceb-f8891e6ee2fa",
+      "configuredAt": 1794414511925
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/minimax/minimax-m3.1-flash",
+        "displayName": "kilo/MiniMax: MiniMax M3.1 Flash"
+      },
+      "configuredModelId": "990ed500-875c-4b40-a911-c9acf57c9b94",
+      "configuredAt": 1794414511926
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/moonshotai/kimi-k3.1-pro",
+        "displayName": "kilo/MoonshotAI: Kimi K3.1 Pro"
+      },
+      "configuredModelId": "dd0d5dfb-e270-410d-808d-581eff98030d",
+      "configuredAt": 1794414511926
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/motif-technologies/motif-3",
+        "displayName": "kilo/Motif Technologies: Motif 3"
+      },
+      "configuredModelId": "de4f0348-2fac-4302-97ae-b11f285d5b6e",
+      "configuredAt": 1794414511926
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/nex-agi/nex-n2.6",
+        "displayName": "kilo/Nex AGI: Nex-N2.6"
+      },
+      "configuredModelId": "a17d7860-36f7-4ee7-b73d-b1b9a8645ed0",
+      "configuredAt": 1794414511926
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6.1-terra",
+        "displayName": "kilo/OpenAI: GPT-6.1 Terra"
+      },
+      "configuredModelId": "317b3198-d7a7-482f-9827-f98aadb720c0",
+      "configuredAt": 1794414511927
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6.1-terra-pro",
+        "displayName": "kilo/OpenAI: GPT-6.1 Terra Pro"
+      },
+      "configuredModelId": "2e06386f-8b7c-478f-828a-b611d646715f",
+      "configuredAt": 1794414511927
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/unbiased/pareto-26.10",
+        "displayName": "kilo/Pareto 26.10"
+      },
+      "configuredModelId": "1516e4bd-ae09-4981-a2cf-51acac30c592",
+      "configuredAt": 1794414511927
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/particle-ai/particle-1",
+        "displayName": "kilo/Particle AI: Particle-1"
+      },
+      "configuredModelId": "a510f2a3-cdf0-4235-966f-741540df11fa",
+      "configuredAt": 1794414511927
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/prism-ml/ternary-bonsai-2-9b",
+        "displayName": "kilo/PrismML: Ternary Bonsai 2 9B"
+      },
+      "configuredModelId": "ed6f7a14-bf3b-4d19-97cc-f5a86cfa2f07",
+      "configuredAt": 1794414511928
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/reflection/beam-1.0-501b-a23b",
+        "displayName": "kilo/Reflection: Beam 1.0 501B A23B"
+      },
+      "configuredModelId": "ff1aeae3-9efb-48c2-9e15-d259ad48645f",
+      "configuredAt": 1794414511928
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/ricursiveai/ripple-65b-preview",
+        "displayName": "kilo/Ricursive: Ripple 65B Preview"
+      },
+      "configuredModelId": "27bf3864-1bb5-40ff-a175-0da2d201db5d",
+      "configuredAt": 1794414511929
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/tencent/hy4",
+        "displayName": "kilo/Tencent: Hy4"
+      },
+      "configuredModelId": "7140b112-5fa6-438b-b2f9-03ef02888588",
+      "configuredAt": 1794414511929
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-5.3-flashx-legal",
+        "displayName": "kilo/Z.ai: GLM 5.3 FlashX Legal"
+      },
+      "configuredModelId": "e48b2845-7544-4db2-9527-900395261691",
+      "configuredAt": 1794414511930
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "opencode/beam-free",
+        "displayName": "opencode/Beam Free"
+      },
+      "configuredModelId": "c5de56f6-f01a-4bcf-8411-a0231b5fc2ca",
+      "configuredAt": 1794414511930
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "opencode/flint-40b-free",
+        "displayName": "opencode/Flint 40B Free"
+      },
+      "configuredModelId": "b02caea4-59e5-4ff9-a9c6-5c5165c862cd",
+      "configuredAt": 1794414511931
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "opencode/iceman-free",
+        "displayName": "opencode/Iceman Free"
+      },
+      "configuredModelId": "58223b4a-28f8-452b-8f36-89313e20d8b8",
+      "configuredAt": 1794414511931
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "opencode/longcat-2.5-free",
+        "displayName": "opencode/LongCat 2.5 Free"
+      },
+      "configuredModelId": "90a32af2-a52c-4bc4-bc36-fe0a49cb8478",
+      "configuredAt": 1794414511931
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/amazon/nova-lite",
+        "displayName": "kilo/Amazon: Nova Lite"
+      },
+      "configuredModelId": "aad4256d-79df-438e-b147-9eda1e1c2a30",
+      "configuredAt": 1794596574711
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/amazon/nova-micro",
+        "displayName": "kilo/Amazon: Nova Micro"
+      },
+      "configuredModelId": "31e2add7-10ce-496a-8db2-7df9d33f0d41",
+      "configuredAt": 1794596574711
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/amazon/nova-pro",
+        "displayName": "kilo/Amazon: Nova Pro"
+      },
+      "configuredModelId": "f913585e-b56b-4b8e-9fb0-79868e6f28da",
+      "configuredAt": 1794596574712
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/humansand/ampersand-v0.1",
+        "displayName": "kilo/Ampersand v0.1"
+      },
+      "configuredModelId": "d1f99cd6-8c97-476c-9b07-77ac0f8d5bb3",
+      "configuredAt": 1794596574713
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/callstack/apex",
+        "displayName": "kilo/Apex"
+      },
+      "configuredModelId": "20268ddb-6bba-4862-81ab-b5ed8bfcd44e",
+      "configuredAt": 1794596574713
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/quiverai/arrow-2",
+        "displayName": "kilo/Arrow 2"
+      },
+      "configuredModelId": "df50f3ea-59fc-4fbe-afc2-8f31214214fe",
+      "configuredAt": 1794596574714
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/quiverai/arrow-2-telos",
+        "displayName": "kilo/Arrow 2 Telos"
+      },
+      "configuredModelId": "da435dce-b8f8-463e-9450-264367eb062c",
+      "configuredAt": 1794596574714
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/deepseek/deepseek-v3.2-thinking",
+        "displayName": "kilo/DeepSeek: DeepSeek V3.2 Thinking"
+      },
+      "configuredModelId": "6edf348e-cbc3-46e4-a732-3303bf47c0a2",
+      "configuredAt": 1794596574714
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/deepseek/deepseek-v4.1-flash-1017-fast",
+        "displayName": "kilo/DeepSeek: DeepSeek V4.1 Flash 1017 Fast"
+      },
+      "configuredModelId": "2ac73fe4-8154-49d7-b2b3-8b4faaaf6c6e",
+      "configuredAt": 1794596574714
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/deepseek/deepseek-v4.1-flash-1017-ultrafast",
+        "displayName": "kilo/DeepSeek: DeepSeek V4.1 Flash 1017 Ultrafast"
+      },
+      "configuredModelId": "da827626-8551-4064-9460-5cb6f947248d",
+      "configuredAt": 1794596574715
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/deepseek/deepseek-v4.1-flash-fast",
+        "displayName": "kilo/DeepSeek: DeepSeek V4.1 Flash Fast"
+      },
+      "configuredModelId": "37a02c01-fdb3-4456-894e-99567aa25173",
+      "configuredAt": 1794596574715
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/deepseek/deepseek-r1",
+        "displayName": "kilo/DeepSeek: DeepSeek-R1"
+      },
+      "configuredModelId": "5abcebd8-dd66-4654-93dd-6853b4bbb789",
+      "configuredAt": 1794596574715
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-3-flash",
+        "displayName": "kilo/Google: Gemini 3 Flash"
+      },
+      "configuredModelId": "fd707d31-5dbb-42ac-8ed3-6255c6f03b3a",
+      "configuredAt": 1794596574716
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-4-hydrogen",
+        "displayName": "kilo/Google: Gemini 4 Hydrogen"
+      },
+      "configuredModelId": "96faadd8-9e87-4971-866d-d0b5bcbc770d",
+      "configuredAt": 1794596574716
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-omni-flash-preview",
+        "displayName": "kilo/Google: Gemini Omni Flash Preview"
+      },
+      "configuredModelId": "d6526095-50ba-496f-a845-8334d470ae29",
+      "configuredAt": 1794596574717
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/inclusionai/ling-3.0-flash-fin",
+        "displayName": "kilo/inclusionAI: Ling 3.0 Flash Fin"
+      },
+      "configuredModelId": "2b21563f-9f3b-4353-83f4-1ff5319b8ca2",
+      "configuredAt": 1794596574717
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/inclusionai/ling-3.0-flash-sante",
+        "displayName": "kilo/inclusionAI: Ling 3.0 Flash Sante"
+      },
+      "configuredModelId": "aaf8bca1-aa6d-41ea-b26c-90dca9dc6053",
+      "configuredAt": 1794596574717
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/inclusionai/ling-3.1-flash-1019",
+        "displayName": "kilo/inclusionAI: Ling 3.1 Flash 1019"
+      },
+      "configuredModelId": "129041dd-fc6f-42a8-88a3-c9a78345a112",
+      "configuredAt": 1794596574718
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/interfaze/interfaze-beta",
+        "displayName": "kilo/Interfaze Beta"
+      },
+      "configuredModelId": "c1cd1f69-c5de-4973-ae13-9bbc3aee2909",
+      "configuredAt": 1794596574718
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/meituan/longcat-2.5",
+        "displayName": "kilo/Meituan: LongCat 2.5"
+      },
+      "configuredModelId": "0f951394-aa7d-42c8-aa33-b350fb1e7573",
+      "configuredAt": 1794596574718
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/inception/mercury-3",
+        "displayName": "kilo/Mercury 3"
+      },
+      "configuredModelId": "45f448a0-2bd3-4d39-9c42-923a82253238",
+      "configuredAt": 1794596574719
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/minimax/minimax-m2.1",
+        "displayName": "kilo/MiniMax: MiniMax M2.1"
+      },
+      "configuredModelId": "b204b7fe-782c-4e40-8b5e-7b3df502b092",
+      "configuredAt": 1794596574720
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/ministral-14b",
+        "displayName": "kilo/Mistral: Ministral 14B"
+      },
+      "configuredModelId": "e211755f-634d-466e-9a22-7ecf26137c9f",
+      "configuredAt": 1794596574721
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/ministral-3b",
+        "displayName": "kilo/Mistral: Ministral 3B"
+      },
+      "configuredModelId": "eed140f8-90a7-43fa-bbb0-be5b1c17b3c8",
+      "configuredAt": 1794596574721
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/ministral-8b",
+        "displayName": "kilo/Mistral: Ministral 8B"
+      },
+      "configuredModelId": "6a0b2560-587c-4c41-971a-bf226352c222",
+      "configuredAt": 1794596574721
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/codestral",
+        "displayName": "kilo/Mistral: Mistral Codestral"
+      },
+      "configuredModelId": "b0f6cb3f-ca80-4eb6-9616-ef70a4fe249e",
+      "configuredAt": 1794596574721
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/mistral-small",
+        "displayName": "kilo/Mistral: Mistral Small"
+      },
+      "configuredModelId": "1e0ea244-fdb4-40b5-a284-fc726affaa53",
+      "configuredAt": 1794596574722
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/moonshotai/kimi-k2.7-code-highspeed",
+        "displayName": "kilo/MoonshotAI: Kimi K2.7 Code High Speed"
+      },
+      "configuredModelId": "38efdd7a-bd2b-4ecd-8ad5-247475d1ee27",
+      "configuredAt": 1794596574722
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/moonshotai/kimi-k3-fast",
+        "displayName": "kilo/MoonshotAI: Kimi K3 Fast"
+      },
+      "configuredModelId": "13b14bec-eb6a-417f-9685-d684ed0680a3",
+      "configuredAt": 1794596574722
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/moonshotai/kimi-k3.1-pro-highspeed",
+        "displayName": "kilo/MoonshotAI: Kimi K3.1 Pro Highspeed"
+      },
+      "configuredModelId": "dccf5348-9a47-4f8c-a9eb-2152dd2c1475",
+      "configuredAt": 1794596574722
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/nvidia/nemotron-nano-12b-v2-vl",
+        "displayName": "kilo/NVIDIA: Nvidia Nemotron Nano 12B V2 VL"
+      },
+      "configuredModelId": "24ca13e2-adf7-4d8b-b239-66d9380b6c4e",
+      "configuredAt": 1794596574722
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/nvidia/nemotron-nano-9b-v2",
+        "displayName": "kilo/NVIDIA: Nvidia Nemotron Nano 9B V2"
+      },
+      "configuredModelId": "44e52ba7-e496-4c5e-9fd9-48f548ac76c0",
+      "configuredAt": 1794596574722
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.1-thinking",
+        "displayName": "kilo/OpenAI: GPT 5.1 Thinking"
+      },
+      "configuredModelId": "7167c1b7-106b-46c2-a26f-e57592a0030c",
+      "configuredAt": 1794596574722
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.1-thinking-fast",
+        "displayName": "kilo/OpenAI: GPT 5.1 Thinking (Fast)"
+      },
+      "configuredModelId": "582acedf-54d1-4d2e-afde-7d4a7b4848e2",
+      "configuredAt": 1794596574723
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.2-fast",
+        "displayName": "kilo/OpenAI: GPT 5.2 (Fast)"
+      },
+      "configuredModelId": "f488baf2-34ff-4365-aea5-fc1cfa127fe3",
+      "configuredAt": 1794596574723
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.3-codex-fast",
+        "displayName": "kilo/OpenAI: GPT 5.3 Codex (Fast)"
+      },
+      "configuredModelId": "69fddc4e-dbad-489d-8b42-85c214600f74",
+      "configuredAt": 1794596574723
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.4-fast",
+        "displayName": "kilo/OpenAI: GPT 5.4 (Fast)"
+      },
+      "configuredModelId": "88f4b55b-9cda-4162-8d42-1fc7536b2436",
+      "configuredAt": 1794596574723
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.4-mini-fast",
+        "displayName": "kilo/OpenAI: GPT 5.4 Mini (Fast)"
+      },
+      "configuredModelId": "2bf34279-9d07-4f67-83d3-5ed12946771d",
+      "configuredAt": 1794596574723
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.5-fast",
+        "displayName": "kilo/OpenAI: GPT 5.5 (Fast)"
+      },
+      "configuredModelId": "e4e6f7b2-27ef-4cb2-afb1-cd6959d4dac4",
+      "configuredAt": 1794596574723
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.6-luna-fast",
+        "displayName": "kilo/OpenAI: GPT 5.6 Luna (Fast)"
+      },
+      "configuredModelId": "e77194d0-f682-4774-9612-b6ad6474c684",
+      "configuredAt": 1794596574723
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.6-sol-fast",
+        "displayName": "kilo/OpenAI: GPT 5.6 Sol (Fast)"
+      },
+      "configuredModelId": "518b18c2-cff5-4699-abba-56631d8270f0",
+      "configuredAt": 1794596574724
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5.6-terra-fast",
+        "displayName": "kilo/OpenAI: GPT 5.6 Terra (Fast)"
+      },
+      "configuredModelId": "ae431e9e-6ed8-4036-91a8-25588bfff4ea",
+      "configuredAt": 1794596574724
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-oss-safeguard-120b",
+        "displayName": "kilo/OpenAI: GPT OSS Safeguard 120B"
+      },
+      "configuredModelId": "085a5b6a-b007-43aa-8c83-821ae6997e92",
+      "configuredAt": 1794596574724
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-4.1-fast",
+        "displayName": "kilo/OpenAI: GPT-4.1 (Fast)"
+      },
+      "configuredModelId": "eb8a79c2-848f-4bcd-b32a-acbe2cadc020",
+      "configuredAt": 1794596574724
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-4.1-mini-fast",
+        "displayName": "kilo/OpenAI: GPT-4.1 mini (Fast)"
+      },
+      "configuredModelId": "7543f605-6700-4d1b-a919-a8227bd589b4",
+      "configuredAt": 1794596574724
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-4o-fast",
+        "displayName": "kilo/OpenAI: GPT-4o (Fast)"
+      },
+      "configuredModelId": "72a709ba-c061-42cc-9ddc-c70064873eed",
+      "configuredAt": 1794596574724
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-4o-mini-fast",
+        "displayName": "kilo/OpenAI: GPT-4o mini (Fast)"
+      },
+      "configuredModelId": "f325dc12-fb3f-4a81-b690-29818833ed17",
+      "configuredAt": 1794596574724
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5-fast",
+        "displayName": "kilo/OpenAI: GPT-5 (Fast)"
+      },
+      "configuredModelId": "df3f7a4d-0d38-43c7-bcaf-cabff6a932a0",
+      "configuredAt": 1794596574724
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5-mini-fast",
+        "displayName": "kilo/OpenAI: GPT-5 mini (Fast)"
+      },
+      "configuredModelId": "bde14393-a08e-43d0-925f-58a9aefe443d",
+      "configuredAt": 1794596574725
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-5-codex",
+        "displayName": "kilo/OpenAI: GPT-5-Codex"
+      },
+      "configuredModelId": "fea47526-7bb0-4b46-a8a9-3dbdca6e56bb",
+      "configuredAt": 1794596574725
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6-astra-fast",
+        "displayName": "kilo/OpenAI: GPT-6 Astra (Fast)"
+      },
+      "configuredModelId": "88aad4fe-cc30-4ae1-9675-80b96071e560",
+      "configuredAt": 1794596574725
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6-luna-fast",
+        "displayName": "kilo/OpenAI: GPT-6 Luna (Fast)"
+      },
+      "configuredModelId": "21ed20a7-3b31-4b2a-b200-d285e60acbcc",
+      "configuredAt": 1794596574725
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6-sol-fast",
+        "displayName": "kilo/OpenAI: GPT-6 Sol (Fast)"
+      },
+      "configuredModelId": "96a5b7bd-e4f1-4468-acb4-936106535c68",
+      "configuredAt": 1794596574725
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6.1-sol-fast",
+        "displayName": "kilo/OpenAI: GPT-6.1 Sol (Fast)"
+      },
+      "configuredModelId": "d717b54e-3584-4e56-acde-3e8aae0e1df1",
+      "configuredAt": 1794596574725
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6.1-terra-fast",
+        "displayName": "kilo/OpenAI: GPT-6.1 Terra (Fast)"
+      },
+      "configuredModelId": "9c905fcd-0f05-4ed4-b9bb-73aa2336bc0b",
+      "configuredAt": 1794596574725
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/o1",
+        "displayName": "kilo/OpenAI: o1"
+      },
+      "configuredModelId": "56972b55-4652-402c-a0ec-e32da13859a1",
+      "configuredAt": 1794596574726
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/o3-fast",
+        "displayName": "kilo/OpenAI: o3 (Fast)"
+      },
+      "configuredModelId": "dc846aa3-4641-4bc1-bd67-83a88fb831e2",
+      "configuredAt": 1794596574726
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/o3-mini",
+        "displayName": "kilo/OpenAI: o3-mini"
+      },
+      "configuredModelId": "d6fb8473-cf3a-4450-9350-0a3358e922a7",
+      "configuredAt": 1794596574726
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/o4-mini",
+        "displayName": "kilo/OpenAI: o4-mini"
+      },
+      "configuredModelId": "addfd1ea-a8e8-45ef-b2bc-f87b340689e1",
+      "configuredAt": 1794596574726
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/unbiased/pareto-26.10-preview",
+        "displayName": "kilo/Pareto 26.10 Preview"
+      },
+      "configuredModelId": "9dcd29ae-e603-42a2-bbc9-6a527e11d900",
+      "configuredAt": 1794596574726
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/particle-ai/particle-1:free",
+        "displayName": "kilo/Particle AI: Particle-1 (free)"
+      },
+      "configuredModelId": "01983508-74af-41f2-b4a8-14a08deec2b1",
+      "configuredAt": 1794596574727
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/particle/particle-1",
+        "displayName": "kilo/Particle-1"
+      },
+      "configuredModelId": "a71b3e10-1d1a-4a79-ac07-30dd76737a17",
+      "configuredAt": 1794596574727
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3-max-thinking",
+        "displayName": "kilo/Qwen: Qwen 3 Max Thinking"
+      },
+      "configuredModelId": "63a9dc01-b76e-43e3-b5ab-d8f6c8be0f99",
+      "configuredAt": 1794596574727
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.5-flash",
+        "displayName": "kilo/Qwen: Qwen 3.5 Flash"
+      },
+      "configuredModelId": "77c203c2-ea8b-46bb-81e6-bb7bd1194f73",
+      "configuredAt": 1794596574728
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.5-plus",
+        "displayName": "kilo/Qwen: Qwen 3.5 Plus"
+      },
+      "configuredModelId": "bc752dfb-ec6e-48ae-be43-19d7f42d3810",
+      "configuredAt": 1794596574728
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen3.8-max",
+        "displayName": "kilo/Qwen: Qwen 3.8 Max"
+      },
+      "configuredModelId": "baf5f13a-bb78-4ede-95a8-db0386543e82",
+      "configuredAt": 1794596574728
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen-3-14b",
+        "displayName": "kilo/Qwen: Qwen3-14B"
+      },
+      "configuredModelId": "55f9cab1-70b3-4dc0-a9a1-b6f91791b98d",
+      "configuredAt": 1794596574729
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/reflection/beam-free",
+        "displayName": "kilo/Reflection: Beam 1.0 (Free)"
+      },
+      "configuredModelId": "1538385d-5eb2-417a-88d5-d7616fac62ce",
+      "configuredAt": 1794596574729
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/scaledown/scaledown-extract-1",
+        "displayName": "kilo/ScaleDown: Extract-1"
+      },
+      "configuredModelId": "b1a4da31-4f82-4d26-a8a3-04b7c64c2734",
+      "configuredAt": 1794596574729
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/scaledown/scaledown-summarize-1",
+        "displayName": "kilo/ScaleDown: Summarize-1"
+      },
+      "configuredModelId": "1e6f3530-83c9-45ff-a9e7-919d39846982",
+      "configuredAt": 1794596574729
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/x-ai/grok-4.20-non-reasoning-beta",
+        "displayName": "kilo/SpaceXSI: Grok 4.20 Beta Non-Reasoning"
+      },
+      "configuredModelId": "264229b1-4a78-4159-8644-f15cc497fddd",
+      "configuredAt": 1794596574729
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/x-ai/grok-4.20-reasoning-beta",
+        "displayName": "kilo/SpaceXSI: Grok 4.20 Beta Reasoning"
+      },
+      "configuredModelId": "fbc2ae97-442f-44a9-9f72-21727167c0c3",
+      "configuredAt": 1794596574729
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/x-ai/grok-4.20-multi-agent-beta",
+        "displayName": "kilo/SpaceXSI: Grok 4.20 Multi Agent Beta"
+      },
+      "configuredModelId": "2fc71c41-f452-4a91-bceb-c76acd3cc320",
+      "configuredAt": 1794596574729
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/x-ai/grok-4.20-non-reasoning",
+        "displayName": "kilo/SpaceXSI: Grok 4.20 Non-Reasoning"
+      },
+      "configuredModelId": "271adc73-a89d-4b8d-8c48-07aa256e998b",
+      "configuredAt": 1794596574729
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/x-ai/grok-4.20-reasoning",
+        "displayName": "kilo/SpaceXSI: Grok 4.20 Reasoning"
+      },
+      "configuredModelId": "96f464b4-77c8-410b-ac1e-e73d3d6a83ba",
+      "configuredAt": 1794596574730
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/tencent/hy-mt2-lite",
+        "displayName": "kilo/Tencent: Tencent Hy-MT2-Lite"
+      },
+      "configuredModelId": "60c1772c-bac2-4619-8e7a-f9c05700eab0",
+      "configuredAt": 1794596574730
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/tencent/hy-mt2-plus",
+        "displayName": "kilo/Tencent: Tencent Hy-MT2-Plus"
+      },
+      "configuredModelId": "f6589be6-e6ed-4afe-864e-9106305b19ac",
+      "configuredAt": 1794596574730
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/tencent/hy-mt2-pro",
+        "displayName": "kilo/Tencent: Tencent Hy-MT2-Pro"
+      },
+      "configuredModelId": "0a324028-b3ff-4786-8bb9-640aa7387747",
+      "configuredAt": 1794596574730
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/thinkingmachines/inkling-2-small",
+        "displayName": "kilo/Thinking Machines: Inkling 2 Small"
+      },
+      "configuredModelId": "ae737ac5-c1c4-469f-9fec-38ffb9878d86",
+      "configuredAt": 1794596574730
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mixedbread/toast-1",
+        "displayName": "kilo/Toast 1"
+      },
+      "configuredModelId": "3e39157f-872f-4000-9a91-fdfb797b4ac0",
+      "configuredAt": 1794596574730
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/paperinstruments/ultramarine-1-flash",
+        "displayName": "kilo/Ultramarine 1 Flash"
+      },
+      "configuredModelId": "24468d13-4191-46cf-a1bd-ace433c8f791",
+      "configuredAt": 1794596574731
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-4.7-flashx",
+        "displayName": "kilo/Z.ai: GLM 4.7 FlashX"
+      },
+      "configuredModelId": "6e4ca238-e80f-4f24-ba57-e23a1c793742",
+      "configuredAt": 1794596574731
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-5.2-fast",
+        "displayName": "kilo/Z.ai: GLM 5.2 Fast"
+      },
+      "configuredModelId": "6106b1f9-66ae-44f7-959c-6ce1a4a690a1",
+      "configuredAt": 1794596574731
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/z-ai/glm-5.3-fast",
+        "displayName": "kilo/Z.ai: GLM 5.3 Fast"
+      },
+      "configuredModelId": "074ec772-1c36-47a1-8e26-ad4d114b4d8c",
+      "configuredAt": 1794596574731
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/claude-fable-5.1",
+        "displayName": "github-copilot/Claude Fable 5.1"
+      },
+      "configuredModelId": "becd3fe4-9255-4c76-97ff-1bf35fde50b9",
+      "configuredAt": 1795198200029
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/claude-fable-5.2",
+        "displayName": "github-copilot/Claude Fable 5.2"
+      },
+      "configuredModelId": "872e2ced-beb7-4904-92f3-b73073f74565",
+      "configuredAt": 1795198200031
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/claude-haiku-4.5",
+        "displayName": "github-copilot/Claude Haiku 4.5 (latest)"
+      },
+      "configuredModelId": "b2331415-1f70-4354-aadf-f6ae805bcebc",
+      "configuredAt": 1795198200031
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/claude-haiku-5.5",
+        "displayName": "github-copilot/Claude Haiku 5.5"
+      },
+      "configuredModelId": "10265173-0ead-496f-9250-4d8b5fc3be00",
+      "configuredAt": 1795198200032
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/claude-opus-4.8",
+        "displayName": "github-copilot/Claude Opus 4.8"
+      },
+      "configuredModelId": "a1e4d375-fd59-43b3-ae64-e9f0860115a1",
+      "configuredAt": 1795198200032
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/claude-opus-4.8-fast",
+        "displayName": "github-copilot/Claude Opus 4.8 Fast"
+      },
+      "configuredModelId": "7455718a-a0d6-4b30-aa54-ae253809f92b",
+      "configuredAt": 1795198200033
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/claude-opus-5",
+        "displayName": "github-copilot/Claude Opus 5"
+      },
+      "configuredModelId": "4ca5b95a-980d-4c40-8eb9-ae286d5b34e1",
+      "configuredAt": 1795198200034
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/claude-opus-5.5",
+        "displayName": "github-copilot/Claude Opus 5.5"
+      },
+      "configuredModelId": "9e50ec62-26f6-44ba-a41e-11ef328357be",
+      "configuredAt": 1795198200034
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/claude-sonnet-4.6",
+        "displayName": "github-copilot/Claude Sonnet 4.6"
+      },
+      "configuredModelId": "38d0e018-4615-452f-8bb2-afe54ca743c3",
+      "configuredAt": 1795198200035
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/claude-sonnet-5",
+        "displayName": "github-copilot/Claude Sonnet 5"
+      },
+      "configuredModelId": "179c78c6-f0f1-4fc9-9c2a-6c2e510ef2e3",
+      "configuredAt": 1795198200035
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/claude-sonnet-5.5",
+        "displayName": "github-copilot/Claude Sonnet 5.5"
+      },
+      "configuredModelId": "90725772-b589-487d-8931-ff807b0e902b",
+      "configuredAt": 1795198200036
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/gemini-3.8-flash",
+        "displayName": "github-copilot/Gemini 3.8 Flash"
+      },
+      "configuredModelId": "69739e1e-eefc-45db-acfa-cd857681f190",
+      "configuredAt": 1795198200036
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/gemini-4-argon",
+        "displayName": "github-copilot/Gemini 4 Argon"
+      },
+      "configuredModelId": "8d3208e0-56b0-4c4b-99d4-e0f2e435a7d5",
+      "configuredAt": 1795198200036
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/gemini-4-carbon",
+        "displayName": "github-copilot/Gemini 4 Carbon"
+      },
+      "configuredModelId": "d5a2e009-c799-445c-a592-beaeb4c1ac5e",
+      "configuredAt": 1795198200037
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/gpt-5.3-codex",
+        "displayName": "github-copilot/GPT-5.3 Codex"
+      },
+      "configuredModelId": "046e2168-f487-4903-9167-5d73fe83d9de",
+      "configuredAt": 1795198200037
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/gpt-5.4-nano",
+        "displayName": "github-copilot/GPT-5.4 nano"
+      },
+      "configuredModelId": "bcfa06c2-759a-4f9d-983a-406f6a549a9b",
+      "configuredAt": 1795198200037
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/gpt-5.6-luna",
+        "displayName": "github-copilot/GPT-5.6 Luna"
+      },
+      "configuredModelId": "f10a6347-0e93-425f-ad87-298c51dcd086",
+      "configuredAt": 1795198200038
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/gpt-5.6-sol",
+        "displayName": "github-copilot/GPT-5.6 Sol"
+      },
+      "configuredModelId": "4198f254-ccb6-408a-a886-7e55506c8ff2",
+      "configuredAt": 1795198200038
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/gpt-5.6-terra",
+        "displayName": "github-copilot/GPT-5.6 Terra"
+      },
+      "configuredModelId": "1c9093fe-80b1-4fa0-a076-d4d41198288b",
+      "configuredAt": 1795198200038
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/gpt-6-astra",
+        "displayName": "github-copilot/GPT-6 Astra"
+      },
+      "configuredModelId": "407c97c4-1548-47f9-8b4b-6a21604bd751",
+      "configuredAt": 1795198200039
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/gpt-6-luna",
+        "displayName": "github-copilot/GPT-6 Luna"
+      },
+      "configuredModelId": "432380c5-505b-43ec-938e-1e82d475050e",
+      "configuredAt": 1795198200039
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/gpt-6-sol",
+        "displayName": "github-copilot/GPT-6 Sol"
+      },
+      "configuredModelId": "34e78cd6-11e4-4266-91e6-6533a2e62e24",
+      "configuredAt": 1795198200039
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/gpt-6.1-sol",
+        "displayName": "github-copilot/GPT-6.1 Sol"
+      },
+      "configuredModelId": "284f5024-2ed9-4960-a826-f0836bc7ec3a",
+      "configuredAt": 1795198200040
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/gpt-6.1-terra",
+        "displayName": "github-copilot/GPT-6.1 Terra"
+      },
+      "configuredModelId": "0b837faa-f882-44e5-8dea-8b00d54885bc",
+      "configuredAt": 1795198200040
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/grok-4.5",
+        "displayName": "github-copilot/Grok 4.5"
+      },
+      "configuredModelId": "e848ff47-097d-416f-953b-a02d630081e9",
+      "configuredAt": 1795198200041
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/grok-4.6",
+        "displayName": "github-copilot/Grok 4.6"
+      },
+      "configuredModelId": "576ae64f-1b11-447b-a739-afa1e2cce963",
+      "configuredAt": 1795198200041
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/grok-4.7",
+        "displayName": "github-copilot/Grok 4.7"
+      },
+      "configuredModelId": "3d6f1410-2687-4700-a0b3-fab68f782210",
+      "configuredAt": 1795198200041
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/kimi-k3",
+        "displayName": "github-copilot/Kimi K3"
+      },
+      "configuredModelId": "7895546b-8a12-47a7-996f-845ab08de32d",
+      "configuredAt": 1795198200042
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/mai-code-1.1-flash",
+        "displayName": "github-copilot/MAI-Code-1.1-Flash"
+      },
+      "configuredModelId": "99e434bc-a028-4361-99d0-89dc4d50dd65",
+      "configuredAt": 1795198200042
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/gemini-4-hydrogen",
+        "displayName": "github-copilot/Gemini 4 Hydrogen"
+      },
+      "configuredModelId": "6b3155ab-4e71-4db0-b2a6-035c2bcf54d2",
+      "configuredAt": 1795198506254
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/gemini-4-neon",
+        "displayName": "github-copilot/Gemini 4 Neon"
+      },
+      "configuredModelId": "3451e50d-c448-45a0-93d5-84c87e0b2e50",
+      "configuredAt": 1795198506256
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/gpt-6.2-astra",
+        "displayName": "github-copilot/GPT-6.2 Astra"
+      },
+      "configuredModelId": "f8ce5fdb-e831-4b7d-b541-8d17acff9809",
+      "configuredAt": 1795198506257
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/gpt-6.2-sol",
+        "displayName": "github-copilot/GPT-6.2 Sol"
+      },
+      "configuredModelId": "9128f178-a38c-4ad6-ab62-75988e1dc0f7",
+      "configuredAt": 1795198506258
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/mai-code-2",
+        "displayName": "github-copilot/MAI Code 2"
+      },
+      "configuredModelId": "b266848a-fba8-4408-8f2a-da742c4c394b",
+      "configuredAt": 1795198506259
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "github-copilot/mai-code-2-flash",
+        "displayName": "github-copilot/MAI Code 2 Flash"
+      },
+      "configuredModelId": "4a7f8d5d-704f-4d97-b6cb-e219da93de3b",
+      "configuredAt": 1795198506259
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/google/gemini-4-neon",
+        "displayName": "kilo/Google: Gemini 4 Neon"
+      },
+      "configuredModelId": "4f494848-9db8-425b-83d4-872da6a8170f",
+      "configuredAt": 1795198506260
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/inclusionai/ling-3.2-flash:free",
+        "displayName": "kilo/inclusionAI: Ling 3.2 Flash (free)"
+      },
+      "configuredModelId": "d410d6a6-ce28-4bf7-95f1-b68c6b330276",
+      "configuredAt": 1795198506260
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/mistralai/pixtral-large-2502",
+        "displayName": "kilo/Mistral: Pixtral Large 2502"
+      },
+      "configuredModelId": "1605004b-c056-4540-a832-e016c6aed855",
+      "configuredAt": 1795198506261
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6.2-astra",
+        "displayName": "kilo/OpenAI: GPT-6.2 Astra"
+      },
+      "configuredModelId": "f38d4d2c-77b7-437d-8d11-abefe7a12fbd",
+      "configuredAt": 1795198506263
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6.2-astra-fast",
+        "displayName": "kilo/OpenAI: GPT-6.2 Astra (Fast)"
+      },
+      "configuredModelId": "c5f36754-a558-41d6-9c64-94e2ee63095b",
+      "configuredAt": 1795198506264
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6.2-astra-pro",
+        "displayName": "kilo/OpenAI: GPT-6.2 Astra Pro"
+      },
+      "configuredModelId": "ff54d647-3162-4cdc-aaa5-445719fe9eec",
+      "configuredAt": 1795198506264
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6.2-sol-fast",
+        "displayName": "kilo/OpenAI: GPT-6.2 Sol (Fast)"
+      },
+      "configuredModelId": "e903103a-3628-4767-90fd-a3b998209b96",
+      "configuredAt": 1795198506265
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6.2-sol",
+        "displayName": "kilo/OpenAI: GPT-6.2 Sol (new)"
+      },
+      "configuredModelId": "82da88c2-eb21-41d9-89ea-df7d81a5261c",
+      "configuredAt": 1795198506265
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/openai/gpt-6.2-sol-pro",
+        "displayName": "kilo/OpenAI: GPT-6.2 Sol Pro"
+      },
+      "configuredModelId": "ee21ba61-385a-4dd6-92f6-6aa8a5b36211",
+      "configuredAt": 1795198506265
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/qwen/qwen4-max",
+        "displayName": "kilo/Qwen: Qwen4 Max"
+      },
+      "configuredModelId": "711e83ba-ce21-488e-8220-283e8856b67f",
+      "configuredAt": 1795198506266
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/recursive/flint-v1.0",
+        "displayName": "kilo/Recursive: Flint"
+      },
+      "configuredModelId": "0f4c4642-2581-444f-99f9-615d72150ba8",
+      "configuredAt": 1795198506267
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/recursive/flint-v1.0:free",
+        "displayName": "kilo/Recursive: Flint (free)"
+      },
+      "configuredModelId": "9a513574-b592-4385-a75e-c89e7d33abd1",
+      "configuredAt": 1795198506267
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/tencent/hy4-flash",
+        "displayName": "kilo/Tencent: Hy4 flash"
+      },
+      "configuredModelId": "d249fbfa-cf94-4977-8b87-23fa5a922575",
+      "configuredAt": 1795198506270
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "opencode/hy4-flash-free",
+        "displayName": "opencode/Hy4 flash Free"
+      },
+      "configuredModelId": "56354158-6ae4-4704-8b78-5e7f08694d32",
+      "configuredAt": 1795198506270
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "opencode/tidepool-alpha-free",
+        "displayName": "opencode/Tidepool Alpha Free"
+      },
+      "configuredModelId": "a505ae59-5d54-4862-bb88-b8ef2734c5d7",
+      "configuredAt": 1795198506271
+    }
+  ],
+  "backends": {
+    "opencode": {
+      "enabledModels": [
+        "e4c28211-b230-43f7-ad60-c0b31dbdf569"
+      ]
+    }
+  },
+  "copilotPlusCatalog": {
+    "models": [
+      {
+        "id": "copilot-plus-flash",
+        "displayName": "Copilot Plus Flash",
+        "description": "The default model: fastest responses and the most quota.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "glm-5.2",
+        "displayName": "GLM-5.2",
+        "description": "A frontier open-weight model.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "glm-5.3-flash",
+        "displayName": "GLM-5.3-Flash",
+        "description": "Fast, cost-efficient coding and long-horizon agent tasks.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "deepseek-v4-pro",
+        "displayName": "DeepSeek V4 Pro",
+        "description": "A top-tier model for the hardest reasoning and agentic tasks.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "deepseek-v4.1-flash",
+        "displayName": "DeepSeek V4.1 Flash",
+        "description": "Fast multimodal reasoning for coding and agentic tasks.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "mimo-v2.6-flash",
+        "displayName": "MiMo V2.6 Flash",
+        "description": "Cost-effective model for everyday use.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "minimax-m3",
+        "displayName": "MiniMax M3",
+        "description": "Long-context model for coding and agentic tasks.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 524288
+        }
+      }
+    ],
+    "defaultEnabledIds": [
+      "copilot-plus-flash",
+      "glm-5.2",
+      "glm-5.3-flash",
+      "deepseek-v4-pro",
+      "deepseek-v4.1-flash",
+      "minimax-m3"
+    ]
+  },
+  "connectors": [],
+  "customConnectors": [],
+  "miyoConnectionMode": "local",
+  "_keychainVaultId": "9c15b630",
+  "settingsVersion": 16
+}

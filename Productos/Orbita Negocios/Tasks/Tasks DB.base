@@ -1,0 +1,25 @@
+filters:
+  and:
+    - file.inFolder("Orbita Negocios/Tasks")
+    - file.basename != "Tasks DB"
+properties:
+  file.name:
+    displayName: file
+views:
+  - type: table
+    name: Tabla
+    order:
+      - file.name
+      - name
+      - description
+      - tags
+      - priority
+      - service
+      - module
+      - done
+    sort: []
+    columnSize:
+      file.name: 75
+      note.name: 294
+      note.description: 196
+      note.module: 166

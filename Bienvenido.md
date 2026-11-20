@@ -1,1 +1,0 @@
-Este es el repositorio administrativo de la empresa Órbita.
