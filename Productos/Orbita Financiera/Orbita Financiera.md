@@ -4,6 +4,10 @@
 
 Es una plataforma para mantener un mercado financiero
 
+## Objetivos
+
+- Prop
+
 # Plataforma
 
 ## Foro
