@@ -1,0 +1,19 @@
+filters:
+  and:
+    - file.inFolder("Productos/Orbita Financiera/Foro/Tests")
+    - file.name != "Test DB.base"
+views:
+  - type: table
+    name: Tabla
+    order:
+      - file.name
+      - type
+      - tags
+      - priority
+      - passed
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 472

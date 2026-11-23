@@ -51,8 +51,8 @@
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "inlineEditCommands": [],
   "projectList": [],
-  "lastDismissedVersion": null,
-  "lastShownStartupVersion": "4.0.20",
+  "lastDismissedVersion": "4.1.0",
+  "lastShownStartupVersion": "4.1.0",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
@@ -709,15 +709,6 @@
         "displayName": "kilo/Devstral 2"
       },
       "configuredModelId": "70be9143-20e0-4ba5-bb39-31b1cb3cd8d6",
-      "configuredAt": 1794328071820
-    },
-    {
-      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
-      "info": {
-        "id": "kilo/dots-studio/dots-3-note-preview:free",
-        "displayName": "kilo/Dots Studio: Dots3-Note Preview (free)"
-      },
-      "configuredModelId": "af7bf469-ebfc-4c93-91df-d4431ebf9bb3",
       "configuredAt": 1794328071820
     },
     {
@@ -1524,15 +1515,6 @@
     {
       "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
       "info": {
-        "id": "kilo/tencent/hy3-preview",
-        "displayName": "kilo/Hy3 preview"
-      },
-      "configuredModelId": "d02e8231-7494-4110-8f87-0f9ac99d3817",
-      "configuredAt": 1794328071842
-    },
-    {
-      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
-      "info": {
         "id": "kilo/tencent/hy4-preview",
         "displayName": "kilo/Hy4 preview"
       },
@@ -1745,15 +1727,6 @@
       },
       "configuredModelId": "c3da7eb7-d9ed-4bf8-ab1b-fd7136c751a6",
       "configuredAt": 1794328071849
-    },
-    {
-      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
-      "info": {
-        "id": "kilo/meituan/longcat-2.0",
-        "displayName": "kilo/Meituan: LongCat 2.0"
-      },
-      "configuredModelId": "089087ae-72a7-4f8b-877c-52079cc6c37a",
-      "configuredAt": 1794328071850
     },
     {
       "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
@@ -3495,15 +3468,6 @@
     {
       "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
       "info": {
-        "id": "opencode/longcat-2.5-free",
-        "displayName": "opencode/LongCat 2.5 Free"
-      },
-      "configuredModelId": "90a32af2-a52c-4bc4-bc36-fe0a49cb8478",
-      "configuredAt": 1794414511931
-    },
-    {
-      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
-      "info": {
         "id": "kilo/amazon/nova-lite",
         "displayName": "kilo/Amazon: Nova Lite"
       },
@@ -3676,7 +3640,7 @@
       "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
       "info": {
         "id": "kilo/meituan/longcat-2.5",
-        "displayName": "kilo/Meituan: LongCat 2.5"
+        "displayName": "kilo/LongCat 2.5"
       },
       "configuredModelId": "0f951394-aa7d-42c8-aa33-b350fb1e7573",
       "configuredAt": 1794596574718
@@ -4706,6 +4670,33 @@
       },
       "configuredModelId": "a505ae59-5d54-4862-bb88-b8ef2734c5d7",
       "configuredAt": 1795198506271
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/radixark/daisyrose-27b",
+        "displayName": "kilo/RadixArk: DaisyRose 27B"
+      },
+      "configuredModelId": "4606904e-5ada-40ab-8c7c-c3ff8574cfd9",
+      "configuredAt": 1795397204785
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/thinkingmachines/inkling-2-mini",
+        "displayName": "kilo/Thinking Machines: Inkling 2 Mini"
+      },
+      "configuredModelId": "f66ee2d0-9665-4dd1-adf8-5876777d57e0",
+      "configuredAt": 1795397204787
+    },
+    {
+      "providerId": "777922eb-2e7a-4172-b070-f5c93688e939",
+      "info": {
+        "id": "kilo/dots-studio/dots-3-note-preview:free",
+        "displayName": "kilo/Dots Studio: Dots3-Note Preview (free)"
+      },
+      "configuredModelId": "6aec184a-5cd6-4e23-a9dc-aa82d58e4b09",
+      "configuredAt": 1795436166474
     }
   ],
   "backends": {

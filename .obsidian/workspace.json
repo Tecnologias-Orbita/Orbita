@@ -8,35 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7828baa7b85b46f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Productos/Orbita Negocios/Orbita Negocios.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Orbita Negocios"
-            }
-          },
-          {
             "id": "aec282d44cfe113d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Productos/Orbita Financiera/Orbita Financiera.md",
-                "mode": "source",
-                "source": false
+                "file": "Productos/Orbita Financiera/Foro/Tests/Test DB.base",
+                "viewName": "Tabla"
               },
-              "icon": "lucide-file",
-              "title": "Orbita Financiera"
+              "icon": "lucide-table",
+              "title": "Test DB"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,8 +207,19 @@
   },
   "active": "aec282d44cfe113d",
   "lastOpenFiles": [
-    "Productos/Orbita Negocios/Orbita Negocios.md",
+    "Productos/Orbita Financiera/Foro/Foro.md",
+    "Productos/Orbita Financiera/Foro/Tests/Test DB.base",
+    "Productos/Orbita Financiera/Foro/Tests/Entrada a administracion.md",
+    "Productos/Orbita Financiera/Foro/Tests/Cambio de datos estáticos del sitio.md",
     "Productos/Orbita Financiera/Orbita Financiera.md",
+    "Common/Test types/Automated.md",
+    "Common/Test types/Manual.md",
+    "Common/Test types",
+    "Productos/Orbita Financiera/Foro/Tests",
+    "Productos/Orbita Financiera/Foro/Database/Database.md",
+    "Productos/Orbita Financiera/Foro/Database",
+    "Productos/Orbita Negocios/Orbita Negocios.md",
+    "Productos/Orbita Financiera/Foro",
     "Administracion/Recursos Humanos/Usuarios.md",
     "Productos/Orbita Financiera",
     "Marketing",
@@ -234,31 +229,19 @@
     "Administracion/Caracterización empresa.md",
     "Bienvenido.md",
     "Administracion",
-    "Productos",
-    "Productos/Orbita Negocios/Tasks/Tasks DB.base",
     "Productos/Orbita Negocios/Tasks/Task 1.md",
     "Productos/Orbita Negocios/Tasks/Task 2.md",
     "templates/Task - {{title}}.md",
     "Common/Priorities/High.md",
     "Common/Priorities/Low.md",
     "Common/Priorities/Medium.md",
-    "Common/Priorities",
     "Common/Sin título.md",
-    "Common",
     "Productos/Orbita Negocios/Backend/Services/Authentication.md",
     "Productos/Orbita Negocios/Backend/Services/Businesses.md",
-    "Productos/Orbita Negocios/Backend",
     "copilot/skills/json-canvas/SKILL.md",
     "copilot/skills/json-canvas/references/EXAMPLES.md",
     "copilot/skills/obsidian-bases/SKILL.md",
     "copilot/skills/obsidian-bases/references/EXAMPLES.md",
-    "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
-    "copilot/skills/obsidian-markdown/SKILL.md",
-    "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
-    "copilot/skills/obsidian-markdown/references/EMBEDS.md",
-    "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
-    "copilot/skills/copilot-fetch-x/SKILL.md",
-    "copilot/skills/copilot-youtube-transcript/SKILL.md",
     "design/fonts/square_sans_serif_7_screen.png",
     "design/fonts/prev.png"
   ]
