@@ -2,11 +2,11 @@
 type: "[[Manual]]"
 tags:
   - admin
-passed: false
+passed: true
 priority: "[[Medium]]"
 ---
 # Pasos
 
-- [ ] Escribir las categorías del sitio
-- [ ] Editar las reglas del foro
-- [ ] Editar la política de privacidad del foro
+- [x] Escribir las categorías del sitio
+- [x] Editar las reglas del foro
+- [x] Editar la política de privacidad del foro
